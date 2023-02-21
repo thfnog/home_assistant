@@ -1,0 +1,251 @@
+1676282994: mosquitto version 2.0.14 starting
+1676282994: Config loaded from /mosquitto/config/mosquitto.conf.
+1676282994: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1676282994: Create a configuration file which defines a listener to allow remote access.
+1676282994: For more details see https://mosquitto.org/documentation/authentication-methods/
+1676282994: Opening ipv4 listen socket on port 1883.
+1676282994: Opening ipv6 listen socket on port 1883.
+1676282994: Error: Address not available
+1676282994: mosquitto version 2.0.14 running
+1676283018: mosquitto version 2.0.14 terminating
+1676283018: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676283019: mosquitto version 2.0.14 starting
+1676283019: Config loaded from /mosquitto/config/mosquitto.conf.
+1676283019: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1676283019: Create a configuration file which defines a listener to allow remote access.
+1676283019: For more details see https://mosquitto.org/documentation/authentication-methods/
+1676283019: Opening ipv4 listen socket on port 1883.
+1676283019: Opening ipv6 listen socket on port 1883.
+1676283019: Error: Address not available
+1676283019: mosquitto version 2.0.14 running
+1676283265: mosquitto version 2.0.14 terminating
+1676283265: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676283266: mosquitto version 2.0.14 starting
+1676283266: Config loaded from /mosquitto/config/mosquitto.conf.
+1676283266: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1676283266: Create a configuration file which defines a listener to allow remote access.
+1676283266: For more details see https://mosquitto.org/documentation/authentication-methods/
+1676283266: Opening ipv4 listen socket on port 1883.
+1676283266: Opening ipv6 listen socket on port 1883.
+1676283266: Error: Address not available
+1676283266: mosquitto version 2.0.14 running
+1676284016: mosquitto version 2.0.14 terminating
+1676284016: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676284016: mosquitto version 2.0.14 starting
+1676284016: Config loaded from /mosquitto/config/mosquitto.conf.
+1676284016: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1676284016: Create a configuration file which defines a listener to allow remote access.
+1676284016: For more details see https://mosquitto.org/documentation/authentication-methods/
+1676284016: Opening ipv4 listen socket on port 1883.
+1676284016: Opening ipv6 listen socket on port 1883.
+1676284016: Error: Address not available
+1676284016: mosquitto version 2.0.14 running
+1676284816: mosquitto version 2.0.14 terminating
+1676284816: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676284816: mosquitto version 2.0.14 starting
+1676284816: Config loaded from /mosquitto/config/mosquitto.conf.
+1676284816: Opening ipv4 listen socket on port 8883.
+1676284816: Opening ipv6 listen socket on port 8883.
+1676284816: mosquitto version 2.0.14 running
+1676284842: mosquitto version 2.0.14 terminating
+1676284842: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676284842: mosquitto version 2.0.14 starting
+1676284842: Config loaded from /mosquitto/config/mosquitto.conf.
+1676284842: Opening ipv4 listen socket on port 8883.
+1676284842: Opening ipv6 listen socket on port 8883.
+1676284842: mosquitto version 2.0.14 running
+1676285318: mosquitto version 2.0.14 terminating
+1676285318: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676285319: mosquitto version 2.0.14 starting
+1676285319: Config loaded from /mosquitto/config/mosquitto.conf.
+1676285319: Opening ipv4 listen socket on port 8883.
+1676285319: Opening ipv6 listen socket on port 8883.
+1676285319: mosquitto version 2.0.14 running
+1676285831: mosquitto version 2.0.14 terminating
+1676285831: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676285832: mosquitto version 2.0.14 starting
+1676285832: Config loaded from /mosquitto/config/mosquitto.conf.
+1676285832: Opening ipv4 listen socket on port 1883.
+1676285832: Opening ipv6 listen socket on port 1883.
+1676285832: mosquitto version 2.0.14 running
+1676285866: New connection from 172.21.0.1:35724 on port 1883.
+1676285866: OpenSSL Error[0]: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version
+1676285866: Client <unknown> disconnected: Protocol error.
+1676285867: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676285869: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676285906: Client connection from 192.168.15.9 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676285907: Client connection from 192.168.15.9 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676285909: Client connection from 192.168.15.9 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676286190: mosquitto version 2.0.14 terminating
+1676286190: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676286190: mosquitto version 2.0.14 starting
+1676286190: Config loaded from /mosquitto/config/mosquitto.conf.
+1676286190: Opening ipv4 listen socket on port 1883.
+1676286190: Opening ipv6 listen socket on port 1883.
+1676286190: mosquitto version 2.0.14 running
+1676286236: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676286237: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676286239: New connection from 172.21.0.1:40256 on port 1883.
+1676286239: OpenSSL Error[0]: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version
+1676286239: Client <unknown> disconnected: Protocol error.
+1676286252: Client connection from 192.168.15.9 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676286253: Client connection from 192.168.15.9 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676286255: Client connection from 192.168.15.9 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676286383: New connection from 172.21.0.1:36070 on port 1883.
+1676286383: OpenSSL Error[0]: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version
+1676286383: Client <unknown> disconnected: Protocol error.
+1676286384: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676286386: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676286395: Client connection from 192.168.15.9 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676286396: Client connection from 192.168.15.9 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676286398: Client connection from 192.168.15.9 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676287991: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676289792: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676290161: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676290162: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676290164: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676290185: Client connection from 192.168.15.9 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676290186: New connection from 192.168.15.9:54481 on port 1883.
+1676290186: OpenSSL Error[0]: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version
+1676290186: Client <unknown> disconnected: Protocol error.
+1676290188: Client connection from 192.168.15.9 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676328404: mosquitto version 2.0.14 starting
+1676328404: Config loaded from /mosquitto/config/mosquitto.conf.
+1676328404: Opening ipv4 listen socket on port 1883.
+1676328404: Opening ipv6 listen socket on port 1883.
+1676328404: mosquitto version 2.0.14 running
+1676330219: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676332020: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676365934: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676367735: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676369229: mosquitto version 2.0.14 starting
+1676369229: Config loaded from /mosquitto/config/mosquitto.conf.
+1676369229: Opening ipv4 listen socket on port 1883.
+1676369229: Opening ipv6 listen socket on port 1883.
+1676369229: mosquitto version 2.0.14 running
+1676369543: mosquitto version 2.0.14 starting
+1676369543: Config loaded from /mosquitto/config/mosquitto.conf.
+1676369543: Opening ipv4 listen socket on port 1883.
+1676369543: Opening ipv6 listen socket on port 1883.
+1676369543: mosquitto version 2.0.14 running
+1676370781: mosquitto version 2.0.14 starting
+1676370781: Config loaded from /mosquitto/config/mosquitto.conf.
+1676370781: Opening ipv4 listen socket on port 1883.
+1676370781: Opening ipv6 listen socket on port 1883.
+1676370781: mosquitto version 2.0.14 running
+1676371280: mosquitto version 2.0.14 starting
+1676371280: Config loaded from /mosquitto/config/mosquitto.conf.
+1676371280: Opening ipv4 listen socket on port 1883.
+1676371280: Opening ipv6 listen socket on port 1883.
+1676371280: mosquitto version 2.0.14 running
+1676373081: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676374882: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676376683: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676378484: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676380285: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676382086: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676383886: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676385688: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676387489: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676389290: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676391091: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676392892: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676394692: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676396494: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676398294: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676400095: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676401897: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676403698: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676405499: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676407300: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676409100: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676410901: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676412703: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676414503: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676416304: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676418105: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676419907: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676421708: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676423509: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676425310: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676427111: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676428912: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676430712: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676432514: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676434314: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676436116: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676437917: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676439718: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676441519: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676443320: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676445121: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676446921: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676448723: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676450523: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676452325: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676454126: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676455927: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676456832: mosquitto version 2.0.14 terminating
+1676456832: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676457016: mosquitto version 2.0.14 starting
+1676457016: Config loaded from /mosquitto/config/mosquitto.conf.
+1676457016: Opening ipv4 listen socket on port 1883.
+1676457016: Opening ipv6 listen socket on port 1883.
+1676457016: mosquitto version 2.0.14 running
+1676458204: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676458205: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676458207: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676458333: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676458334: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676458336: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676458387: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676458388: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676458390: Client connection from 172.21.0.1 failed: error:1404A42E:SSL routines:ST_ACCEPT:tlsv1 alert protocol version.
+1676458817: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676460617: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676462419: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676464219: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676466020: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676467822: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676469623: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676471423: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676473225: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676475026: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676476827: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676478628: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676480429: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676482230: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676484030: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676485832: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676487632: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676489433: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676491235: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676493036: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676494837: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676496638: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676498438: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676500239: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676502041: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676503841: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676505643: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676507443: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676509245: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676511045: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676512846: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676514648: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676516449: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676518249: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676520051: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676521852: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676523652: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676525454: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676527254: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676529055: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676530857: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676532658: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676534459: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676536260: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676538061: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676539862: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676540194: mosquitto version 2.0.14 terminating
+1676540194: Saving in-memory database to /mosquitto/data//mosquitto.db.

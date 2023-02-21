@@ -1,0 +1,13 @@
+- id: '1676473659871'
+  alias: Tag Teste is scanned
+  description: ''
+  trigger:
+  - platform: tag
+    tag_id: 9d2b8f4a-7b07-477e-966d-67fd9145daff
+  condition: []
+  action:
+  - type: toggle
+    device_id: 1cec07ec94e8d91098ea816bac0af487
+    entity_id: switch.luz_escritorio_socket_1
+    domain: switch
+  mode: single

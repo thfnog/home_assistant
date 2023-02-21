@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "name": "Thiago Nogueira",
+        "user_id": "e217a125a1fc408a8e038e84c058620b",
+        "device_trackers": [
+          "device_tracker.thiago_s_smartphone"
+        ],
+        "id": "thiago_nogueira"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1380 @@
+Feb 20, 2023 19:22:59.915 [0x7f2cc4c91b38] INFO - Plex Media Server v1.30.2.6563-3d4dc0cce - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 debian - GMT 00:00
+Feb 20, 2023 19:22:59.915 [0x7f2cc4c91b38] INFO - Linux version: 5.15.0-60-generic, language: en-US
+Feb 20, 2023 19:22:59.915 [0x7f2cc4c91b38] INFO - Processor: 16-core 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+Feb 20, 2023 19:22:59.915 [0x7f2cc4c91b38] INFO - Compiler is - Clang 11.0.1 (https://plex.tv 9b997da8e5b47bdb4a9425b3a3b290be393b4b1f)
+Feb 20, 2023 19:22:59.915 [0x7f2cc4c91b38] INFO - /usr/lib/plexmediaserver/Plex Media Server
+Feb 20, 2023 19:22:59.915 [0x7f2cc4f14aa0] DEBUG - BPQ: [Idle] -> [Starting]
+Feb 20, 2023 19:22:59.916 [0x7f2cc4f14aa0] DEBUG - FeatureManager: Using cached data for features list
+Feb 20, 2023 19:22:59.923 [0x7f2cc4f14aa0] DEBUG - [CERT] Subject name is /CN=*.ee2deeb3528c40b4aad5b58f1c449413.plex.direct
+Feb 20, 2023 19:22:59.923 [0x7f2cc4f14aa0] DEBUG - [CERT] Installed certificate with fingerprint 90:d2:f1:24:f1:49:db:eb:b4:8e:4b:b6:ee:9f:33:25:09:d4:d9:fc.
+Feb 20, 2023 19:22:59.923 [0x7f2cc4f14aa0] DEBUG - [CERT/OCSP] Stapling requests will be made to 'http://r3.o.lencr.org/'.
+Feb 20, 2023 19:22:59.923 [0x7f2cc4f14aa0] INFO - [CERT/OCSP] Successfully retrieved response from cache.
+Feb 20, 2023 19:22:59.923 [0x7f2cc4f14aa0] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
+Feb 20, 2023 19:22:59.923 [0x7f2cc4f14aa0] DEBUG - HttpServer: Listening on port 32400.
+Feb 20, 2023 19:22:59.924 [0x7f2cc4f14aa0] DEBUG - HttpServer: Listening on port 32401.
+Feb 20, 2023 19:22:59.924 [0x7f2cc4f14aa0] DEBUG - Running server...
+Feb 20, 2023 19:22:59.924 [0x7f2cc4f14aa0] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Feb 20, 2023 19:22:59.924 [0x7f2cc4335b38] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+Feb 20, 2023 19:22:59.926 [0x7f2cc4f14aa0] INFO - SQLITE3:0x80000001, 283, recovered 880 frames from WAL file /config/Library/Application Support/Plex Media Server/Plug-in Support/Databases/com.plexapp.plugins.library.db-wal
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] INFO - Running migrations. (EPG 0)
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 0.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 1.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 2.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 3.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 4.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 5.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 6.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 7.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 8.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 9.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 10.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 11.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 12.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 13.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 14.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 15.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 16.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 17.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 18.
+Feb 20, 2023 19:22:59.945 [0x7f2cc4f14aa0] DEBUG - Captured session 19.
+Feb 20, 2023 19:22:59.946 [0x7f2cc4f14aa0] DEBUG - ChangestampAllocator: initialized to 8457612157627753837
+Feb 20, 2023 19:22:59.947 [0x7f2cc4f14aa0] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.35.5, threadsafe=1
+Feb 20, 2023 19:22:59.947 [0x7f2cc4f14aa0] INFO - SQLITE3:0x80000001, 283, recovered 332 frames from WAL file /config/Library/Application Support/Plex Media Server/Plug-in Support/Databases/com.plexapp.plugins.library.blobs.db-wal
+Feb 20, 2023 19:22:59.949 [0x7f2cc4f14aa0] INFO - Running migrations. (EPG 0)
+Feb 20, 2023 19:22:59.949 [0x7f2cc4f14aa0] DEBUG - Captured session 0.
+Feb 20, 2023 19:22:59.949 [0x7f2cc4f14aa0] DEBUG - Captured session 1.
+Feb 20, 2023 19:22:59.966 [0x7f2cc3af1b38] DEBUG - Grabber: Cleaning up orphaned grabs.
+Feb 20, 2023 19:22:59.967 [0x7f2cc3af1b38] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Feb 20, 2023 19:22:59.967 [0x7f2cc4f14aa0] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+Feb 20, 2023 19:22:59.967 [0x7f2cc37f1b38] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Feb 20, 2023 19:22:59.967 [0x7f2cc37f1b38] DEBUG - Relay: read 0 cached entries from hosts file
+Feb 20, 2023 19:22:59.967 [0x7f2cc4f14aa0] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Feb 20, 2023 19:22:59.967 [0x7f2cc4f14aa0] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:22:59.967 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager/HCl#1] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:22:59.967 [0x7f2cc4f14aa0] DEBUG - MyPlex: updating with 5 access tokens
+Feb 20, 2023 19:22:59.967 [0x7f2cc4f14aa0] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:22:59.967 [0x7f2cc4f14aa0] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:22:59.968 [0x7f2cc4f14aa0] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:22:59.968 [0x7f2cc33cdb38] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Feb 20, 2023 19:22:59.968 [0x7f2cc33cdb38] DEBUG - [HCl#2] HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:22:59.968 [0x7f2cc4f14aa0] DEBUG - Opening 1 database sessions to library (), SQLite 3.35.5, threadsafe=1
+Feb 20, 2023 19:22:59.969 [0x7f2cc2d93b38] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce" changed: -1 => 2023-02-09 20:13:26 (1675973606).
+Feb 20, 2023 19:22:59.969 [0x7f2cc2d93b38] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2023-02-12 21:14:49 (1676236489).
+Feb 20, 2023 19:22:59.969 [0x7f2cc2d93b38] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce"
+Feb 20, 2023 19:22:59.972 [0x7f2cc2d93b38] DEBUG - Not starting plug-in with duplicate identifier: com.plexapp.plugins.webclient found in: /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/WebClient.bundle
+Feb 20, 2023 19:22:59.973 [0x7f2cc2d93b38] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Feb 20, 2023 19:22:59.973 [0x7f2cc2d93b38] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Feb 20, 2023 19:22:59.973 [0x7f2cc2d93b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/System.bundle.
+Feb 20, 2023 19:22:59.973 [0x7f2cc2d93b38] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+Feb 20, 2023 19:22:59.974 [0x7f2cc2d93b38] DEBUG - Starting file watcher for com.plexapp.system
+Feb 20, 2023 19:22:59.974 [0x7f2cc2d93b38] DEBUG - Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Feb 20, 2023 19:22:59.974 [0x7f2cc2d93b38] DEBUG - Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Feb 20, 2023 19:22:59.974 [0x7f2cc2d93b38] DEBUG - Spawned plug-in com.plexapp.system with PID 162
+Feb 20, 2023 19:22:59.974 [0x7f2cc2d93b38] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+Feb 20, 2023 19:23:00.659 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.7s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:00.660 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager/HCl#3] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:00.666 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#2] HTTP/2.0 (0.7s) 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:00.666 [0x7f2cc33cdb38] DEBUG - MyPlex: updating with 5 access tokens
+Feb 20, 2023 19:23:00.666 [0x7f2cc33cdb38] DEBUG - [HCl#4] HTTP requesting GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:00.676 [0x7f2cc2fbcb38] DEBUG - Request: [127.0.0.1:36668 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (2 live) #1 GZIP Token ()
+Feb 20, 2023 19:23:00.676 [0x7f2cc463eb38] DEBUG - Completed: [127.0.0.1:36668] 503 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (2 live) GZIP 0ms 436 bytes
+Feb 20, 2023 19:23:00.677 [0x7f2cc2fbcb38] DEBUG - Request: [127.0.0.1:36670 (Loopback)] GET / (2 live) #3 GZIP Token ()
+Feb 20, 2023 19:23:00.677 [0x7f2cc463eb38] DEBUG - Completed: [127.0.0.1:36670] 503 GET / (2 live) GZIP 0ms 436 bytes
+Feb 20, 2023 19:23:00.893 [0x7f2cc463eb38] DEBUG - Request: didn't get any data from [::ffff:127.0.0.1]:36672: End of file
+Feb 20, 2023 19:23:00.959 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#3] HTTP/2.0 (0.3s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:00.959 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#4] HTTP/2.0 (0.3s) 200 response from GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:00.959 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager/HCl#5] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:00.959 [0x7f2cc2979b38] DEBUG - [HCl#6] HTTP requesting GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:01.215 [0x7f2cc2fbcb38] DEBUG - Request: [127.0.0.1:36674 (Loopback)] GET /servers (3 live) #8 GZIP Token ()
+Feb 20, 2023 19:23:01.215 [0x7f2cc4841b38] DEBUG - Completed: [127.0.0.1:36674] 503 GET /servers (3 live) GZIP 0ms 436 bytes
+Feb 20, 2023 19:23:01.220 [0x7f2cc2d93b38] DEBUG - Reading 486 bytes in the body, code is 200
+Feb 20, 2023 19:23:01.220 [0x7f2cc2d93b38] DEBUG - [com.plexapp.system] Plug-in running on port 35153.
+Feb 20, 2023 19:23:01.220 [0x7f2cc2d93b38] DEBUG -  * Plug-in handles prefix: /system
+Feb 20, 2023 19:23:01.220 [0x7f2cc2d93b38] DEBUG -  * Plug-in handles prefix: /player
+Feb 20, 2023 19:23:01.220 [0x7f2cc2d93b38] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+Feb 20, 2023 19:23:01.220 [0x7f2cc2d93b38] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+Feb 20, 2023 19:23:01.220 [0x7f2cc2d93b38] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+Feb 20, 2023 19:23:01.220 [0x7f2cc2d93b38] DEBUG - Updating the list of agents known by the system.
+Feb 20, 2023 19:23:01.220 [0x7f2cc2d93b38] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Feb 20, 2023 19:23:01.221 [0x7f2cc2d93b38] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:35153/system/agents
+Feb 20, 2023 19:23:01.221 [0x7f2cc4f14aa0] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+Feb 20, 2023 19:23:01.221 [0x7f2cc4f14aa0] DEBUG - Transcoder: Cleaning old transcode directories.
+Feb 20, 2023 19:23:01.222 [0x7f2cc4f14aa0] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:01.222 [0x7f2cc4f14aa0] DEBUG - MyPlex: updating with 5 access tokens
+Feb 20, 2023 19:23:01.222 [0x7f2cc4f14aa0] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:01.222 [0x7f2cc4f14aa0] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:01.222 [0x7f2cc4f14aa0] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:01.222 [0x7f2cc4f14aa0] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Feb 20, 2023 19:23:01.222 [0x7f2cc4f14aa0] DEBUG - MyPlex: username is thiagonogueira276, login is thfnog@gmail.com, home is 0, no pin
+Feb 20, 2023 19:23:01.223 [0x7f2cc4f14aa0] DEBUG - MyPlex: start public ip check and mapping - current mapped state: 'Unknown'.
+Feb 20, 2023 19:23:01.223 [0x7f2cc4f14aa0] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Feb 20, 2023 19:23:01.223 [0x7f2cc4f14aa0] DEBUG - PublicAddressManager: Starting.
+Feb 20, 2023 19:23:01.223 [0x7f2cc4f14aa0] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Feb 20, 2023 19:23:01.223 [0x7f2cc4f14aa0] DEBUG - NetworkInterface: Starting watch thread.
+Feb 20, 2023 19:23:01.223 [0x7f2cc3af1b38] DEBUG - PublicAddressManager: Obtaining public IP.
+Feb 20, 2023 19:23:01.223 [0x7f2cc4f14aa0] DEBUG - Network change.
+Feb 20, 2023 19:23:01.223 [0x7f2cc4f14aa0] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.223 [0x7f2cc3af1b38] DEBUG - [HCl#8] HTTP requesting GET https://v4.plex.tv/pms/:/ip
+Feb 20, 2023 19:23:01.223 [0x7f2cc2142b38] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+Feb 20, 2023 19:23:01.223 [0x7f2cc2345b38] DEBUG - [HCl#9] HTTP requesting GET https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Feb 20, 2023 19:23:01.226 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#5] HTTP/2.0 (0.3s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:01.226 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#6] HTTP/2.0 (0.3s) 200 response from GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:01.227 [0x7f2cc2776b38] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:01.227 [0x7f2cc33cdb38] DEBUG - NAT: UPnP, attempting port mapping.
+Feb 20, 2023 19:23:01.227 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager/HCl#a] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:01.249 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:01.249 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37311, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:01.337 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:35153/system/agents
+Feb 20, 2023 19:23:01.337 [0x7f2cc2d93b38] DEBUG - [com.plexapp.system] HTTP reply status 200, with 11288 bytes of content.
+Feb 20, 2023 19:23:01.339 [0x7f2cc2d93b38] DEBUG - The system knows about 18 agents.
+Feb 20, 2023 19:23:01.339 [0x7f2cc1f1bb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/LastFM.bundle.
+Feb 20, 2023 19:23:01.339 [0x7f2cc1d18b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/LyricFind.bundle.
+Feb 20, 2023 19:23:01.339 [0x7f2cc1b15b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/PersonalMedia.bundle.
+Feb 20, 2023 19:23:01.340 [0x7f2cc2d93b38] DEBUG - Removing /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/WebClient.bundle.
+Feb 20, 2023 19:23:01.340 [0x7f2cc2d93b38] DEBUG - Waiting for 20 plug-ins to finish starting.
+Feb 20, 2023 19:23:01.341 [0x7f2cc1b15b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+Feb 20, 2023 19:23:01.341 [0x7f2cc1f1bb38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+Feb 20, 2023 19:23:01.341 [0x7f2cc1b15b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/PlexMovie.bundle.
+Feb 20, 2023 19:23:01.341 [0x7f2cc1f1bb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/OpenSubtitles.bundle.
+Feb 20, 2023 19:23:01.341 [0x7f2cc1d18b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+Feb 20, 2023 19:23:01.341 [0x7f2cc1d18b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/ServerManager.bundle.
+Feb 20, 2023 19:23:01.342 [0x7f2cc1b15b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+Feb 20, 2023 19:23:01.342 [0x7f2cc1f1bb38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.opensubtitles] yet.
+Feb 20, 2023 19:23:01.342 [0x7f2cc1b15b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/PlexMovieNew.bundle.
+Feb 20, 2023 19:23:01.343 [0x7f2cc1f1bb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/Framework.bundle.
+Feb 20, 2023 19:23:01.343 [0x7f2cc1d18b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/Media-Flags.bundle.
+Feb 20, 2023 19:23:01.344 [0x7f2cc1d18b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/PlexMusic.bundle.
+Feb 20, 2023 19:23:01.344 [0x7f2cc1b15b38] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.movie] yet.
+Feb 20, 2023 19:23:01.344 [0x7f2cc1f1bb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/LocalMedia.bundle.
+Feb 20, 2023 19:23:01.344 [0x7f2cc1b15b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/TheTVDBv4.bundle.
+Feb 20, 2023 19:23:01.346 [0x7f2cc1d18b38] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.music] yet.
+Feb 20, 2023 19:23:01.346 [0x7f2cc1f1bb38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+Feb 20, 2023 19:23:01.346 [0x7f2cc1d18b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/MoviePosterDB.bundle.
+Feb 20, 2023 19:23:01.346 [0x7f2cc1f1bb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/Scanners.bundle.
+Feb 20, 2023 19:23:01.346 [0x7f2cc1b15b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+Feb 20, 2023 19:23:01.346 [0x7f2cc1b15b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/PlexSeries.bundle.
+Feb 20, 2023 19:23:01.347 [0x7f2cc1f1bb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/Musicbrainz.bundle.
+Feb 20, 2023 19:23:01.347 [0x7f2cc1d18b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+Feb 20, 2023 19:23:01.347 [0x7f2cc1d18b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/HTbackdrops.bundle.
+Feb 20, 2023 19:23:01.348 [0x7f2cc1b15b38] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.series] yet.
+Feb 20, 2023 19:23:01.348 [0x7f2cc1b15b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/Fanart-TV.bundle.
+Feb 20, 2023 19:23:01.348 [0x7f2cc1f1bb38] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+Feb 20, 2023 19:23:01.348 [0x7f2cc1f1bb38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/TheMovieDB.bundle.
+Feb 20, 2023 19:23:01.349 [0x7f2cc1d18b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+Feb 20, 2023 19:23:01.349 [0x7f2cc1d18b38] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-3d4dc0cce/PlexThemeMusic.bundle.
+Feb 20, 2023 19:23:01.349 [0x7f2cc1b15b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+Feb 20, 2023 19:23:01.349 [0x7f2cc1f1bb38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+Feb 20, 2023 19:23:01.350 [0x7f2cc1d18b38] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+Feb 20, 2023 19:23:01.350 [0x7f2cc2d93b38] DEBUG - Starting scheduled updates, every 3600 seconds
+Feb 20, 2023 19:23:01.350 [0x7f2cc2d93b38] INFO - LibraryUpdateManager path watching is disabled
+Feb 20, 2023 19:23:01.350 [0x7f2cc2d93b38] DEBUG - Done waiting for all plug-ins to start.
+Feb 20, 2023 19:23:01.350 [0x7f2cc2d93b38] DEBUG - Creating NetworkServices singleton.
+Feb 20, 2023 19:23:01.350 [0x7f2cc2d93b38] DEBUG - PluginRepository::setStartState: 3, complete
+Feb 20, 2023 19:23:01.350 [0x7f2cc00d6b38] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale no
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale ar
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale pt
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale de
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale cs_CZ
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale he
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale es
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale lt
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale nl_BE
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale ja_JP
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale en
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale ko
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale fr
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale da
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale sr
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale pt_BR
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale hr_HR
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale af
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale nl
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale ro
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale sk
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale hu_HU
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale et_EE
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale sl
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale fi
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale it
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale sv
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale zh_CN
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale ru
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale hu
+Feb 20, 2023 19:23:01.351 [0x7f2cc00d6b38] DEBUG - Translator: Found locale pl
+Feb 20, 2023 19:23:01.354 [0x7f2cc00d6b38] DEBUG - [Req#b] Starting file watcher for com.plexapp.agents.imdb
+Feb 20, 2023 19:23:01.354 [0x7f2cc00d6b38] DEBUG - [Req#b] Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Feb 20, 2023 19:23:01.354 [0x7f2cc00d6b38] DEBUG - [Req#b] Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Feb 20, 2023 19:23:01.354 [0x7f2cc00d6b38] DEBUG - [Req#b] Spawned plug-in com.plexapp.agents.imdb with PID 249
+Feb 20, 2023 19:23:01.354 [0x7f2cc00d6b38] DEBUG - [Req#b] [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+Feb 20, 2023 19:23:01.381 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:01.381 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37315, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - Detected primary interface: 192.168.15.9
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - Network interfaces:
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 3 wlp0s20f3 (192.168.15.9) (88-D8-2E-5E-B5-96) (loopback: 0)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 5 br-f1f178c96eec (192.168.49.1) (02-42-05-3D-8A-B6) (loopback: 0)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 6 br-fd3b77c1441f (172.21.0.1) (02-42-69-D5-6F-DA) (loopback: 0)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 34971 br-2d6f80abe997 (172.18.0.1) (02-42-25-4D-DD-47) (loopback: 0)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 34972 br-a019f8b299c6 (172.19.0.1) (02-42-A3-57-8A-A7) (loopback: 0)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 3 wlp0s20f3 (2804:431:cfcd:4c44:a6c3:ec:9752:c825) (88-D8-2E-5E-B5-96) (loopback: 0)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 3 wlp0s20f3 (2804:431:cfcd:4c44:8518:3298:9aec:1c33) (88-D8-2E-5E-B5-96) (loopback: 0)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 3 wlp0s20f3 (2804:431:cfcd:4c44:c8e0:6856:9961:8763) (88-D8-2E-5E-B5-96) (loopback: 0)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 3 wlp0s20f3 (2804:431:cfcd:4c44:ed68:71bb:accc:f6fb) (88-D8-2E-5E-B5-96) (loopback: 0)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 3 wlp0s20f3 (2804:431:cfcd:4c44:2a82:22de:96bf:4999) (88-D8-2E-5E-B5-96) (loopback: 0)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG -  * 3 wlp0s20f3 (2804:431:cfcd:4c44:68:e4ae:ae24:3a13) (88-D8-2E-5E-B5-96) (loopback: 0)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkServices: Initializing...
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Creating new service.
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Quick dispatch of network change.
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Creating new service.
+Feb 20, 2023 19:23:01.446 [0x7f2cbfacdb38] DEBUG - Network change for advertiser.
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Quick dispatch of network change.
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Creating new service.
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Quick dispatch of network change.
+Feb 20, 2023 19:23:01.446 [0x7f2cbfacdb38] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Creating new service.
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Quick dispatch of network change.
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Creating new service.
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Quick dispatch of network change.
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Creating new service.
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Feb 20, 2023 19:23:01.446 [0x7f2cc4f14aa0] DEBUG - NetworkService: Quick dispatch of network change.
+Feb 20, 2023 19:23:01.446 [0x7f2cbfacdb38] DEBUG - Network change for advertiser.
+Feb 20, 2023 19:23:01.446 [0x7f2cbfacdb38] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+Feb 20, 2023 19:23:01.447 [0x7f2cbfacdb38] DEBUG - Network change for advertiser.
+Feb 20, 2023 19:23:01.447 [0x7f2cbfacdb38] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+Feb 20, 2023 19:23:01.447 [0x7f2cbfacdb38] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Feb 20, 2023 19:23:01.447 [0x7f2cbfacdb38] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+Feb 20, 2023 19:23:01.447 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Feb 20, 2023 19:23:01.447 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 192.168.15.9 on broadcast address 192.168.15.255 (index: 1)
+Feb 20, 2023 19:23:01.447 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 192.168.49.1 on broadcast address 192.168.49.255 (index: 2)
+Feb 20, 2023 19:23:01.447 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 3)
+Feb 20, 2023 19:23:01.448 [0x7f2cc0ce8b38] DEBUG - [HCl#b] HTTP requesting GET https://plex.tv/api/taas/profile
+Feb 20, 2023 19:23:01.448 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 4)
+Feb 20, 2023 19:23:01.448 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 172.19.255.255 (index: 5)
+Feb 20, 2023 19:23:01.448 [0x7f2cbfacdb38] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+Feb 20, 2023 19:23:01.448 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Feb 20, 2023 19:23:01.448 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 192.168.15.9 on broadcast address 192.168.15.255 (index: 1)
+Feb 20, 2023 19:23:01.448 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 192.168.49.1 on broadcast address 192.168.49.255 (index: 2)
+Feb 20, 2023 19:23:01.448 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 3)
+Feb 20, 2023 19:23:01.448 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 4)
+Feb 20, 2023 19:23:01.448 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 172.19.255.255 (index: 5)
+Feb 20, 2023 19:23:01.448 [0x7f2cbfacdb38] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Feb 20, 2023 19:23:01.448 [0x7f2cbfacdb38] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+Feb 20, 2023 19:23:01.449 [0x7f2cc1c75b38] DEBUG - [ChildProcessMonitor] Plex Tuner Service starting.
+Feb 20, 2023 19:23:01.449 [0x7f2cc1c75b38] DEBUG - [ChildProcessMonitor/JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Tuner Service" /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.30.2.6563-3d4dc0cce 32600
+Feb 20, 2023 19:23:01.449 [0x7f2cc1c75b38] DEBUG - [ChildProcessMonitor/JobRunner] Jobs: Starting child process with pid 251
+Feb 20, 2023 19:23:01.449 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 192.168.15.9 on broadcast address 239.255.255.250 (index: 0)
+Feb 20, 2023 19:23:01.449 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 192.168.49.1 on broadcast address 239.255.255.250 (index: 1)
+Feb 20, 2023 19:23:01.449 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 239.255.255.250 (index: 2)
+Feb 20, 2023 19:23:01.449 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 3)
+Feb 20, 2023 19:23:01.449 [0x7f2cbfacdb38] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 239.255.255.250 (index: 4)
+Feb 20, 2023 19:23:01.451 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.451 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37312, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.451 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.451 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.458 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#a] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:01.458 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & TV)
+Feb 20, 2023 19:23:01.458 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager] discovered cloud provider (Music)
+Feb 20, 2023 19:23:01.458 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Feb 20, 2023 19:23:01.458 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 0)
+Feb 20, 2023 19:23:01.458 [0x7f2cc08e2b38] DEBUG - [MediaProviderManager/HCl#d] HTTP requesting GET https://music.provider.plex.tv
+Feb 20, 2023 19:23:01.458 [0x7f2cc0ae5b38] DEBUG - [MediaProviderManager/HCl#c] HTTP requesting GET https://vod.provider.plex.tv
+Feb 20, 2023 19:23:01.539 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#9] HTTP/2.0 (0.3s) 200 response from GET https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1 (reused)
+Feb 20, 2023 19:23:01.540 [0x7f2cc2979b38] DEBUG - MyPlex: username is thiagonogueira276, login is thfnog@gmail.com, home is 0, no pin
+Feb 20, 2023 19:23:01.540 [0x7f2cc2345b38] DEBUG - [HCl#10] HTTP requesting GET https://plex.tv/api/v2/geoip
+Feb 20, 2023 19:23:01.549 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.549 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.549 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37312, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.549 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.549 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.550 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.550 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.550 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37312, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.550 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.550 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.551 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.551 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.551 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37316, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.551 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.551 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.552 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.552 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.552 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37316, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.552 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.552 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.553 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.553 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.553 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37316, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.553 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.553 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.554 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.554 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:01.554 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37319, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:01.554 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.554 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37320, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.554 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.554 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.557 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#c] HTTP/2.0 (0.1s) 200 response from GET https://vod.provider.plex.tv
+Feb 20, 2023 19:23:01.557 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#d] HTTP/2.0 (0.1s) 200 response from GET https://music.provider.plex.tv
+Feb 20, 2023 19:23:01.583 [0x7f2cc06dfb38] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability
+Feb 20, 2023 19:23:01.583 [0x7f2cc06dfb38] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability-platforms
+Feb 20, 2023 19:23:01.590 [0x7f2cc37f1b38] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability
+Feb 20, 2023 19:23:01.590 [0x7f2cc37f1b38] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability-platforms
+Feb 20, 2023 19:23:01.590 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager] loading cloud provider details (Music) (alive: 1)
+Feb 20, 2023 19:23:01.590 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & TV) (alive: 1)
+Feb 20, 2023 19:23:01.590 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager] we had 0 cloud providers online, we now have 3
+Feb 20, 2023 19:23:01.590 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Feb 20, 2023 19:23:01.590 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager] cloud provider (Music) is online and available
+Feb 20, 2023 19:23:01.590 [0x7f2cc37f1b38] DEBUG - [MediaProviderManager] cloud provider (Movies & TV) is online and available
+Feb 20, 2023 19:23:01.673 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#b] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/api/taas/profile (reused)
+Feb 20, 2023 19:23:01.722 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.722 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.722 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37320, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.722 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.722 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.723 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.723 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.723 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37320, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.723 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.723 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.724 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.724 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:01.724 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37325, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:01.724 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:01.724 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37305, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:01.724 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.724 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37306, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.724 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.724 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.725 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.725 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.725 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37306, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.725 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.725 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.726 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.726 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.726 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37306, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.726 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.726 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.727 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.727 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.727 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37326, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.727 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.727 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.728 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.728 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.728 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37326, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.728 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.728 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.728 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.728 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.728 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37326, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:01.728 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.728 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.730 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.763 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#10] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/api/v2/geoip (reused)
+Feb 20, 2023 19:23:01.764 [0x7f2cc4841b38] DEBUG - [EventSourceClient/pubsub/45.79.197.58:443] Resolving 45.79.197.58 port 443
+Feb 20, 2023 19:23:01.764 [0x7f2cc02d9b38] DEBUG - [HCl#11] HTTP requesting GET https://plex.tv/api/v2/server/webhooks?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:01.764 [0x7f2cc4841b38] DEBUG - [EventSourceClient/pubsub/45.79.197.58:443] Resolved 45.79.197.58 to 45.79.197.58:443
+Feb 20, 2023 19:23:01.764 [0x7f2cc1902b38] DEBUG - [MediaProviderManager/HCl#12] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:01.764 [0x7f2cc2345b38] DEBUG - [HCl#13] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:01.786 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.786 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37327, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:01.786 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.786 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.788 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.788 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.788 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37328, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:01.788 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.788 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.789 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.789 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.789 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37328, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:01.789 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.789 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.790 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.790 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.790 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37328, flags=0x1002, change=0x100
+Feb 20, 2023 19:23:01.790 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.790 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.791 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.791 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.791 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37328, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:01.791 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.791 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.792 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.792 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.792 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37327, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:01.792 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.792 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.793 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.793 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.793 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37328, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:01.793 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.793 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.795 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.795 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.795 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37328, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:01.795 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.795 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.796 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.796 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.796 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37328, flags=0x1043, change=0x1
+Feb 20, 2023 19:23:01.796 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.796 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.797 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.797 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.797 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37328, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:01.797 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.798 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.798 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.798 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:01.798 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37328, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:01.799 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:01.799 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:01.800 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:01.909 [0x7f2cc2fbcb38] DEBUG - Request: [127.0.0.1:36690 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) #9 GZIP Signed-in Token (thiagonogueira276)
+Feb 20, 2023 19:23:01.909 [0x7f2cc2fbcb38] DEBUG - [Req#9] [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+Feb 20, 2023 19:23:01.909 [0x7f2cc2fbcb38] DEBUG - [Req#9/HCl#14] HTTP requesting GET http://127.0.0.1:35153/system/messaging/clear_events/com.plexapp.agents.imdb
+Feb 20, 2023 19:23:01.909 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#8] HTTP/2.0 (0.7s) 200 response from GET https://v4.plex.tv/pms/:/ip
+Feb 20, 2023 19:23:01.910 [0x7f2cc3af1b38] DEBUG - PublicAddressManager: Got public IP from v4.plex.tv: 179.110.121.35
+Feb 20, 2023 19:23:01.916 [0x7f2cc16ffb38] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader "--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.30.2.6563-3d4dc0cce" --version=1.30.2.6563-3d4dc0cce --platform=Linux --platformVersion=5.15.0-60-generic --serverUuid=b391ca0e8081a50d3fbb59444117012e548fa0fd --userId=thfnog@gmail.com --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/minidump/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --vendor=Docker --model=x86_64 "--device=Docker Container (LinuxServer.io)"
+Feb 20, 2023 19:23:01.916 [0x7f2cc16ffb38] DEBUG - [JobRunner] Jobs: Starting child process with pid 278
+Feb 20, 2023 19:23:01.923 [0x7f2cc4a6eb38] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 278 is 0 (success)
+Feb 20, 2023 19:23:01.924 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:35153/system/messaging/clear_events/com.plexapp.agents.imdb (reused)
+Feb 20, 2023 19:23:01.924 [0x7f2cc2fbcb38] DEBUG - [Req#9] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Feb 20, 2023 19:23:01.924 [0x7f2cc463eb38] DEBUG - Completed: [127.0.0.1:36690] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) GZIP 15ms 280 bytes
+Feb 20, 2023 19:23:01.999 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#12] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:01.999 [0x7f2cc1902b38] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & TV)
+Feb 20, 2023 19:23:01.999 [0x7f2cc1902b38] DEBUG - [MediaProviderManager] discovered cloud provider (Music)
+Feb 20, 2023 19:23:01.999 [0x7f2cc1902b38] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Feb 20, 2023 19:23:01.999 [0x7f2cc1902b38] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 1)
+Feb 20, 2023 19:23:01.999 [0x7f2cc1902b38] DEBUG - [MediaProviderManager] loading cloud provider details (Music) (alive: 1)
+Feb 20, 2023 19:23:01.999 [0x7f2cc1902b38] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & TV) (alive: 1)
+Feb 20, 2023 19:23:01.999 [0x7f2cc1902b38] DEBUG - [MediaProviderManager] we had 3 cloud providers online, we now have 3
+Feb 20, 2023 19:23:01.999 [0x7f2cc1902b38] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Feb 20, 2023 19:23:01.999 [0x7f2cc1902b38] DEBUG - [MediaProviderManager] cloud provider (Music) is online and available
+Feb 20, 2023 19:23:01.999 [0x7f2cc1902b38] DEBUG - [MediaProviderManager] cloud provider (Movies & TV) is online and available
+Feb 20, 2023 19:23:02.002 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#11] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/api/v2/server/webhooks?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:02.002 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#13] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:02.003 [0x7f2cc2345b38] DEBUG - [HCl#15] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:02.018 [0x7f2cc2fbcb38] DEBUG - Request: [127.0.0.1:36694 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #c GZIP Signed-in Token (thiagonogueira276)
+Feb 20, 2023 19:23:02.018 [0x7f2cc2fbcb38] DEBUG - [Req#c] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+Feb 20, 2023 19:23:02.018 [0x7f2cc2fbcb38] DEBUG - [Req#c/HCl#16] HTTP requesting GET http://127.0.0.1:35153/:/plugins/com.plexapp.system/resourceHashes
+Feb 20, 2023 19:23:02.061 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:02.061 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37327, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:02.090 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.1s) 404 response from GET http://127.0.0.1:35153/:/plugins/com.plexapp.system/resourceHashes
+Feb 20, 2023 19:23:02.090 [0x7f2cc2fbcb38] DEBUG - [Req#c] [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
+Feb 20, 2023 19:23:02.090 [0x7f2cc4841b38] DEBUG - Completed: [127.0.0.1:36694] 404 GET /:/plugins/com.plexapp.system/resourceHashes (3 live) GZIP 72ms 261 bytes
+Feb 20, 2023 19:23:02.098 [0x7f2cc2fbcb38] DEBUG - Request: [127.0.0.1:36710 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #e GZIP Signed-in Token (thiagonogueira276)
+Feb 20, 2023 19:23:02.099 [0x7f2cc2fbcb38] DEBUG - [Req#e] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Feb 20, 2023 19:23:02.099 [0x7f2cc2fbcb38] DEBUG - [Req#e/HCl#17] HTTP requesting GET http://127.0.0.1:35153/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Feb 20, 2023 19:23:02.099 [0x7f2cbf36eb38] DEBUG - Request: [127.0.0.1:36720 (Loopback)] GET / (4 live) #10 GZIP Signed-in Token (thiagonogueira276)
+Feb 20, 2023 19:23:02.100 [0x7f2cc4841b38] DEBUG - Completed: [127.0.0.1:36720] 200 GET / (4 live) GZIP 0ms 3334 bytes
+Feb 20, 2023 19:23:02.102 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:35153/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Feb 20, 2023 19:23:02.102 [0x7f2cc2fbcb38] DEBUG - [Req#e] [com.plexapp.system] HTTP reply status 200, with 516 bytes of content.
+Feb 20, 2023 19:23:02.102 [0x7f2cc4841b38] DEBUG - Completed: [127.0.0.1:36710] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) GZIP 3ms 745 bytes
+Feb 20, 2023 19:23:02.105 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.105 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37328, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:02.105 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.105 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.106 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.106 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.106 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37328, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:02.106 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.106 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.107 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.199 [0x7f2cc463eb38] DEBUG - [EventSourceClient/pubsub/45.79.197.58:443] Connected in 435 ms.
+Feb 20, 2023 19:23:02.199 [0x7f2cc463eb38] DEBUG - [EventSourceClient/pubsub/45.79.197.58:443] Wrote data, reading reply.
+Feb 20, 2023 19:23:02.233 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#15] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:02.234 [0x7f2cc2345b38] DEBUG - [HCl#18] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:02.390 [0x7f2cc4f14aa0] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Feb 20, 2023 19:23:02.390 [0x7f2cc14fcb38] DEBUG - DVR: Starting up.
+Feb 20, 2023 19:23:02.391 [0x7f2cc4f14aa0] DEBUG - [HCl#19] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:02.391 [0x7f2cc10f6b38] DEBUG - [MediaProviderManager/HCl#1a] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:02.391 [0x7f2cc14fcb38] DEBUG - Activity: registered new activity 8ee3904a-2aa6-486f-9b52-fa2c8fe6afb2 - "Processing subscriptions"
+Feb 20, 2023 19:23:02.521 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.521 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37328, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:02.521 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.521 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.551 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#18] HTTP/2.0 (0.3s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:02.553 [0x7f2cc2345b38] DEBUG - CERT: Certificate will not expire soon; we'll check again in a week.
+Feb 20, 2023 19:23:02.553 [0x7f2cbf16bb38] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Feb 20, 2023 19:23:02.553 [0x7f2cbf16bb38] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Feb 20, 2023 19:23:02.592 [0x7f2cbf36eb38] DEBUG - Request: [127.0.0.1:36736 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) #11 GZIP Signed-in Token (thiagonogueira276)
+Feb 20, 2023 19:23:02.593 [0x7f2cbf36eb38] DEBUG - [Req#11] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Feb 20, 2023 19:23:02.593 [0x7f2cbf36eb38] DEBUG - [Req#11/HCl#1b] HTTP requesting GET http://127.0.0.1:35153/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Feb 20, 2023 19:23:02.596 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#1b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:35153/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Feb 20, 2023 19:23:02.596 [0x7f2cbf36eb38] DEBUG - [Req#11] [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+Feb 20, 2023 19:23:02.596 [0x7f2cc463eb38] DEBUG - Completed: [127.0.0.1:36736] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) GZIP 3ms 415 bytes
+Feb 20, 2023 19:23:02.599 [0x7f2cc00d6b38] DEBUG - [Req#b] Reading 148 bytes in the body, code is 200
+Feb 20, 2023 19:23:02.599 [0x7f2cc00d6b38] DEBUG - [Req#b] [com.plexapp.agents.imdb] Plug-in running on port 43373.
+Feb 20, 2023 19:23:02.599 [0x7f2cc00d6b38] DEBUG - [Req#b] Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+Feb 20, 2023 19:23:02.600 [0x7f2cc00d6b38] DEBUG - [Req#b] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+Feb 20, 2023 19:23:02.600 [0x7f2cc00d6b38] DEBUG - [Req#b/HCl#1c] HTTP requesting GET http://127.0.0.1:43373/:/plugins/com.plexapp.agents.imdb/prefs
+Feb 20, 2023 19:23:02.616 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#1c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:43373/:/plugins/com.plexapp.agents.imdb/prefs
+Feb 20, 2023 19:23:02.616 [0x7f2cc00d6b38] DEBUG - [Req#b] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+Feb 20, 2023 19:23:02.616 [0x7f2cc00d6b38] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as ce9a32348b0118e145cf2de45f7ac69d3ff7fa12
+Feb 20, 2023 19:23:02.616 [0x7f2cc00d6b38] DEBUG - IVA: Downloading trailer lists.
+Feb 20, 2023 19:23:02.619 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.619 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.619 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37328, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:02.619 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.619 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.619 [0x7f2cbf16bb38] DEBUG - MyPlex: Sending Server Info to myPlex (user=thfnog@gmail.com, ip=, port=0)
+Feb 20, 2023 19:23:02.619 [0x7f2cbf16bb38] DEBUG - [HCl#1e] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:02.619 [0x7f2cc2345b38] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Feb 20, 2023 19:23:02.619 [0x7f2cc2345b38] DEBUG - [HCl#1f] HTTP requesting PUT https://plex.tv/devices/b391ca0e8081a50d3fbb59444117012e548fa0fd?Connection[][uri]=http://192.168.15.9:32400&Connection[][uri]=http://192.168.49.1:32400&Connection[][uri]=http://172.21.0.1:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:a6c3:ec:9752:c825]:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:8518:3298:9aec:1c33]:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:c8e0:6856:9961:8763]:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:ed68:71bb:accc:f6fb]:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:2a82:22de:96bf:4999]:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:68:e4ae:ae24:3a13]:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:02.619 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.619 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.619 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37327, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:02.619 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.619 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.620 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.624 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#19] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:02.625 [0x7f2cc4f14aa0] DEBUG - [HCl#20] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:02.628 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.628 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37328, flags=0x1002, change=0x41
+Feb 20, 2023 19:23:02.628 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.628 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.630 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#1a] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:02.630 [0x7f2cc10f6b38] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & TV)
+Feb 20, 2023 19:23:02.630 [0x7f2cc10f6b38] DEBUG - [MediaProviderManager] discovered cloud provider (Music)
+Feb 20, 2023 19:23:02.630 [0x7f2cc10f6b38] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Feb 20, 2023 19:23:02.630 [0x7f2cc10f6b38] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 1)
+Feb 20, 2023 19:23:02.630 [0x7f2cc10f6b38] DEBUG - [MediaProviderManager] loading cloud provider details (Music) (alive: 1)
+Feb 20, 2023 19:23:02.630 [0x7f2cc10f6b38] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & TV) (alive: 1)
+Feb 20, 2023 19:23:02.630 [0x7f2cc10f6b38] DEBUG - [MediaProviderManager] we had 3 cloud providers online, we now have 3
+Feb 20, 2023 19:23:02.630 [0x7f2cc10f6b38] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Feb 20, 2023 19:23:02.630 [0x7f2cc10f6b38] DEBUG - [MediaProviderManager] cloud provider (Music) is online and available
+Feb 20, 2023 19:23:02.630 [0x7f2cc10f6b38] DEBUG - [MediaProviderManager] cloud provider (Movies & TV) is online and available
+Feb 20, 2023 19:23:02.712 [0x7f2cc00d6b38] DEBUG - IVA: Downloaded 47 trailers for source 1.
+Feb 20, 2023 19:23:02.770 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.770 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.770 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37328, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.770 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.770 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.771 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.771 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:02.771 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37327, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:02.771 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.771 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37328, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.771 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.771 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.772 [0x7f2cc4841b38] DEBUG - [EventSourceClient/pubsub/45.79.197.58:443] Read HTTP reply header.
+Feb 20, 2023 19:23:02.772 [0x7f2cc4841b38] DEBUG - [EventSourceClient/pubsub/45.79.197.58:443] MyPlex: We appear to have regained Internet connectivity.
+Feb 20, 2023 19:23:02.773 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.773 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:02.773 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37328, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.773 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:02.773 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37328, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:02.773 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.773 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37315, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:02.773 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.773 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.774 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.774 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.774 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37316, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:02.774 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.774 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.775 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.775 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.775 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37316, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:02.775 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.775 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.775 [0x7f2cc00d6b38] DEBUG - IVA: Downloaded 22 trailers for source 2.
+Feb 20, 2023 19:23:02.776 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.780 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.780 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37316, flags=0x1002, change=0x41
+Feb 20, 2023 19:23:02.780 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.780 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.810 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.810 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.810 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37316, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.810 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.810 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.811 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.811 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:02.811 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37315, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:02.811 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.811 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37316, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.811 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.811 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.812 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.812 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:02.812 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37316, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.812 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:02.812 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37316, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:02.855 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#20] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:02.855 [0x7f2cc4f14aa0] DEBUG - [DatabaseFixups] Running fix-ups.
+Feb 20, 2023 19:23:02.856 [0x7f2cc4f14aa0] DEBUG - [DatabaseFixups] Destroyed 0 transient items.
+Feb 20, 2023 19:23:02.856 [0x7f2cc4f14aa0] DEBUG - [DatabaseFixups] Collections: Found 0 collections tags in section 1.
+Feb 20, 2023 19:23:02.856 [0x7f2cc4f14aa0] DEBUG - [DatabaseFixups] Collections: We had 0 collections in the library already.
+Feb 20, 2023 19:23:02.856 [0x7f2cc4f14aa0] DEBUG - [DatabaseFixups] Collections: Synced tags in section 1 in 0ms.
+Feb 20, 2023 19:23:02.857 [0x7f2cc4f14aa0] DEBUG - [DatabaseFixups] Collections: Refreshed attributes for 0 collections in section 1 in 0ms.
+Feb 20, 2023 19:23:02.857 [0x7f2cc4f14aa0] DEBUG - [DatabaseFixups] Collection: Refreshed visibility in section 1 in 0ms.
+Feb 20, 2023 19:23:02.857 [0x7f2cc4f14aa0] DEBUG - [DatabaseFixups] Collections: Refreshed attributes for 0 collections in section 1 in 0ms.
+Feb 20, 2023 19:23:02.857 [0x7f2cc4f14aa0] DEBUG - [DatabaseFixups] Running database fix-ups completed in 0.0 seconds.
+Feb 20, 2023 19:23:02.858 [0x7f2cc4f14aa0] DEBUG - [HCl#22] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Feb 20, 2023 19:23:02.862 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#1f] HTTP/2.0 (0.2s) 200 response from PUT https://plex.tv/devices/b391ca0e8081a50d3fbb59444117012e548fa0fd?Connection[][uri]=http://192.168.15.9:32400&Connection[][uri]=http://192.168.49.1:32400&Connection[][uri]=http://172.21.0.1:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:a6c3:ec:9752:c825]:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:8518:3298:9aec:1c33]:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:c8e0:6856:9961:8763]:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:ed68:71bb:accc:f6fb]:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:2a82:22de:96bf:4999]:32400&Connection[][uri]=http://[2804:431:cfcd:4c44:68:e4ae:ae24:3a13]:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:02.873 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#1e] HTTP/2.0 (0.3s) 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:02.873 [0x7f2cbf16bb38] DEBUG - MyPlex: Published Mapping State response was 422
+Feb 20, 2023 19:23:02.873 [0x7f2cbf16bb38] DEBUG - MyPlex: Got response for b391ca0e8081a50d3fbb59444117012e548fa0fd ~ registered :0
+Feb 20, 2023 19:23:02.873 [0x7f2cbf16bb38] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Feb 20, 2023 19:23:02.873 [0x7f2cbf16bb38] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Feb 20, 2023 19:23:02.879 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.879 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37329, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:02.879 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.879 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.880 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.880 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.880 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37330, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:02.880 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.880 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.881 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.881 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.881 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37330, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.881 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.881 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.882 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.882 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.882 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37330, flags=0x1002, change=0x100
+Feb 20, 2023 19:23:02.882 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.882 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.884 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.884 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.884 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37330, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.884 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.884 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.885 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.885 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.885 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37330, flags=0x1043, change=0x1
+Feb 20, 2023 19:23:02.885 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.885 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.885 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.885 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.885 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37330, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:02.885 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.885 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.886 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.886 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.886 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37330, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:02.886 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.886 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.887 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.887 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.887 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37330, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:02.887 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.887 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.888 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.888 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.888 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37330, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:02.888 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.888 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.891 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.891 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.891 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37329, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.891 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.891 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.891 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.979 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.979 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37331, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:02.979 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.979 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.981 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.981 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.981 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37332, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:02.981 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.981 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.982 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.982 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.982 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37332, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.982 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.982 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.984 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.984 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.984 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37332, flags=0x1002, change=0x100
+Feb 20, 2023 19:23:02.984 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.984 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.986 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.986 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.986 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37332, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.986 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.986 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.987 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.987 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.987 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37332, flags=0x1043, change=0x1
+Feb 20, 2023 19:23:02.987 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.987 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.988 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.988 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.988 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37332, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:02.988 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.988 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.988 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.988 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.988 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37332, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:02.988 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.988 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.989 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.989 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.989 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37331, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:02.989 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.989 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.990 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.990 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.990 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37332, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:02.990 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.990 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.991 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:02.991 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:02.991 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37332, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:02.991 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:02.991 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:02.992 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.135 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#22] HTTP/2.0 (0.3s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Feb 20, 2023 19:23:03.135 [0x7f2cc4f14aa0] DEBUG - Waiting for server condition to be signaled.
+Feb 20, 2023 19:23:03.213 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:03.213 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37329, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:03.258 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.258 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37330, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:03.258 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.258 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.260 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.260 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.260 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37330, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:03.260 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.260 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.262 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.262 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.262 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37332, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:03.262 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.262 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.263 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.263 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.263 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37332, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:03.263 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.263 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.264 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.599 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.599 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37330, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:03.599 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.599 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.688 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.688 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.688 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37330, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:03.688 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.688 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.689 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.689 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.689 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37329, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:03.689 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.689 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.690 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.698 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.698 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37330, flags=0x1002, change=0x41
+Feb 20, 2023 19:23:03.698 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.698 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.747 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.747 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.747 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37330, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:03.747 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.747 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.748 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.748 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:03.748 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37329, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:03.748 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.748 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37330, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:03.748 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.748 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.749 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.749 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:03.749 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37330, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:03.749 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:03.749 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37330, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:03.880 [0x7f2cc4841b38] DEBUG - [EventSourceClient/pubsub/45.79.197.58:443] PublicAddressManager: Obtaining public address and mapping port.
+Feb 20, 2023 19:23:03.880 [0x7f2cc4841b38] DEBUG - [EventSourceClient/pubsub/45.79.197.58:443] MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Feb 20, 2023 19:23:03.880 [0x7f2cc4841b38] WARN - [EventSourceClient/pubsub/45.79.197.58:443] MyPlex: attempted a reachability check but we're not yet mapped.
+Feb 20, 2023 19:23:03.880 [0x7f2cc4841b38] DEBUG - [EventSourceClient/pubsub/45.79.197.58:443] Successfully connected to 45.79.197.58.
+Feb 20, 2023 19:23:03.993 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.993 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37333, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:03.993 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.993 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.994 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.994 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.994 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37334, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:03.994 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.994 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.995 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.995 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.995 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37334, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:03.995 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.995 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.996 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.996 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.996 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37334, flags=0x1002, change=0x100
+Feb 20, 2023 19:23:03.996 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.996 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.997 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.997 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.997 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37334, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:03.997 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.997 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.998 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.998 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.998 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37334, flags=0x1043, change=0x1
+Feb 20, 2023 19:23:03.998 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.998 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:03.999 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:03.999 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:03.999 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37334, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:03.999 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:03.999 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.000 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.000 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.000 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37334, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:04.000 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.000 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.000 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.000 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.000 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37333, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:04.000 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.000 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.001 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.001 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.001 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37334, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:04.001 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.001 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.003 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.003 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.003 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37334, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:04.003 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.003 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.004 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.213 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:04.213 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37331, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:04.261 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.262 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37334, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:04.262 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.262 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.263 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.263 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.263 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37334, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:04.263 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.263 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.263 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.263 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.263 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37332, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:04.263 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.263 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.264 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.264 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.264 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37332, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:04.264 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.264 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.265 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.265 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.265 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37332, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:04.265 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.265 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.265 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.313 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:04.313 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37333, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:04.357 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.357 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37334, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:04.357 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.357 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.358 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.358 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.358 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37334, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:04.358 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.358 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.359 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.359 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.359 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37334, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:04.359 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.359 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.360 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.426 [0x7f2cc33cdb38] DEBUG - NAT: UPnP, found device <http://192.168.15.9:40000/device.xml> with private address <192.168.15.9>
+Feb 20, 2023 19:23:04.426 [0x7f2cc33cdb38] DEBUG - NAT: UPnP, not an IGD: <http://192.168.15.9:40000/device.xml>.
+Feb 20, 2023 19:23:04.513 [0x7f2cc33cdb38] DEBUG - NAT: UPnP, found device <http://192.168.15.1:53475/rootDesc.xml> with private address <192.168.15.9>
+Feb 20, 2023 19:23:04.524 [0x7f2cc33cdb38] DEBUG - NAT: UPnP, not connected or has no external IP: <http://192.168.15.1:53475/rootDesc.xml>(urn:schemas-upnp-org:service:WANIPConnection:1).
+Feb 20, 2023 19:23:04.539 [0x7f2cc33cdb38] DEBUG - NAT: UPnP, not connected or has no external IP: <http://192.168.15.1:53475/rootDesc.xml>(urn:schemas-upnp-org:service:WANPPPConnection:1).
+Feb 20, 2023 19:23:04.539 [0x7f2cc33cdb38] DEBUG - NAT: UPnP, didn't find usable IGD.
+Feb 20, 2023 19:23:04.539 [0x7f2cc33cdb38] DEBUG - NAT: PMP, attempting mapping.
+Feb 20, 2023 19:23:04.699 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.699 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37334, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:04.699 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.699 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.782 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.782 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.782 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37334, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:04.782 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.782 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.783 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.783 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.783 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37333, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:04.783 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.783 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.783 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.792 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.792 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37334, flags=0x1002, change=0x41
+Feb 20, 2023 19:23:04.792 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.792 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.822 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.822 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.822 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37334, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:04.822 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.822 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.823 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.823 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:04.823 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37333, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:04.823 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:04.823 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37334, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:04.823 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:04.823 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:04.824 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:04.824 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:04.824 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37334, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:04.824 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:04.824 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37334, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:05.267 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.267 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37332, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:05.267 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.267 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.311 [0x7f2cc3af1b38] DEBUG - NAT: UPnP, found device <http://192.168.15.9:40000/device.xml> with private address <192.168.15.9>
+Feb 20, 2023 19:23:05.311 [0x7f2cc3af1b38] DEBUG - NAT: UPnP, not an IGD: <http://192.168.15.9:40000/device.xml>.
+Feb 20, 2023 19:23:05.330 [0x7f2cc3af1b38] DEBUG - NAT: UPnP, found device <http://192.168.15.1:53475/rootDesc.xml> with private address <192.168.15.9>
+Feb 20, 2023 19:23:05.338 [0x7f2cc3af1b38] DEBUG - NAT: UPnP, not connected or has no external IP: <http://192.168.15.1:53475/rootDesc.xml>(urn:schemas-upnp-org:service:WANIPConnection:1).
+Feb 20, 2023 19:23:05.346 [0x7f2cc3af1b38] DEBUG - NAT: UPnP, not connected or has no external IP: <http://192.168.15.1:53475/rootDesc.xml>(urn:schemas-upnp-org:service:WANPPPConnection:1).
+Feb 20, 2023 19:23:05.346 [0x7f2cc3af1b38] DEBUG - NAT: UPnP, getPublicIP didn't find usable IGD.
+Feb 20, 2023 19:23:05.371 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.371 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.371 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37332, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:05.371 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.371 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.372 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.372 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.372 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37331, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:05.372 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.372 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.374 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.382 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.382 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37332, flags=0x1002, change=0x41
+Feb 20, 2023 19:23:05.382 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.382 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.422 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.422 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.422 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37332, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:05.422 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.422 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.423 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.423 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:05.423 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37331, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:05.423 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.423 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37332, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:05.423 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.423 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.424 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.424 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:05.424 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37332, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:05.424 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:05.424 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37332, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:05.492 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.492 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37335, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:05.492 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.492 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.494 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.494 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.494 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37336, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:05.494 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.494 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.495 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.495 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.495 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37336, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:05.495 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.495 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.496 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.496 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.496 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37336, flags=0x1002, change=0x100
+Feb 20, 2023 19:23:05.496 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.496 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.498 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.498 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.498 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37336, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:05.498 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.498 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.498 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.498 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.498 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37336, flags=0x1043, change=0x1
+Feb 20, 2023 19:23:05.498 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.498 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.499 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.499 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.499 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37336, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:05.499 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.499 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.500 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.500 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.500 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37336, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:05.500 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.500 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.500 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.500 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.500 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37335, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:05.500 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.500 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.502 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.502 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.502 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37336, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:05.502 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.502 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.503 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.503 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.503 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37336, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:05.503 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.503 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.504 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.583 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.583 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37337, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:05.583 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.583 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.588 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.588 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.588 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37338, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:05.588 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.588 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.590 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.590 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.590 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37338, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:05.590 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.590 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.591 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.591 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.591 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37338, flags=0x1002, change=0x100
+Feb 20, 2023 19:23:05.591 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.591 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.594 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.594 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.594 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37338, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:05.594 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.594 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.595 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.595 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.595 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37338, flags=0x1043, change=0x1
+Feb 20, 2023 19:23:05.595 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.595 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.597 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.597 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.597 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37338, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:05.597 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.597 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.598 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.598 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.598 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37338, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:05.598 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.598 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.599 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.599 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.599 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37337, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:05.599 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.599 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.599 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.599 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.599 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37338, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:05.599 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.599 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.600 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.600 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.600 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37338, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:05.600 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.600 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.601 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.701 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.701 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37336, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:05.701 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.701 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.702 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.702 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.702 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37336, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:05.702 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.702 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.703 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.703 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.703 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37338, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:05.703 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.703 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.703 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.703 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.703 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37338, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:05.703 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.703 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.704 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.805 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:05.805 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37335, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:05.862 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.862 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37336, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:05.862 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.862 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.864 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.864 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.864 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37336, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:05.864 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.864 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.866 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.866 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.866 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37336, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:05.866 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.866 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.867 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.917 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:05.917 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37337, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:05.953 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.953 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37338, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:05.953 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.953 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.954 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.954 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.954 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37338, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:05.954 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.954 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.955 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:05.955 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:05.955 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37338, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:05.955 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:05.955 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:05.956 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:06.204 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:06.204 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37336, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:06.204 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:06.204 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:06.282 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:06.282 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:06.282 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37336, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:06.282 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:06.282 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:06.283 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:06.283 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:06.283 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37335, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:06.283 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:06.283 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:06.284 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:06.292 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:06.292 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37336, flags=0x1002, change=0x41
+Feb 20, 2023 19:23:06.292 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:06.292 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:06.338 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:06.338 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:06.338 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37336, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:06.338 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:06.338 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:06.339 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:06.339 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:06.339 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37335, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:06.339 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:06.339 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37336, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:06.339 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:06.339 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:06.340 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:06.340 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:06.340 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37336, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:06.340 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:06.340 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37336, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:06.447 [0x7f2cbfacdb38] DEBUG - NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (Predator-Ubuntu)
+Feb 20, 2023 19:23:06.447 [0x7f2cbfacdb38] DEBUG - Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Feb 20, 2023 19:23:06.447 [0x7f2cbfacdb38] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Feb 20, 2023 19:23:06.447 [0x7f2cbfacdb38] DEBUG - [HCl#25] HTTP requesting GET http://127.0.0.1:35153/system/notify/serverUpdated?host=127.0.0.1
+Feb 20, 2023 19:23:06.450 [0x7f2cbf36eb38] DEBUG - Request: [127.0.0.1:36750 (Loopback)] GET /servers (3 live) #14 GZIP Signed-in Token (thiagonogueira276)
+Feb 20, 2023 19:23:06.450 [0x7f2cc4841b38] DEBUG - Completed: [127.0.0.1:36750] 200 GET /servers (3 live) GZIP 0ms 497 bytes
+Feb 20, 2023 19:23:06.452 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:35153/system/notify/serverUpdated?host=127.0.0.1
+Feb 20, 2023 19:23:06.453 [0x7f2cbfacdb38] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Feb 20, 2023 19:23:06.764 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process/HCl#26] HTTP requesting GET https://plex.tv/services/pubsub/servers
+Feb 20, 2023 19:23:06.904 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:06.904 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37338, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:06.904 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:06.904 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:06.991 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:06.991 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:06.991 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37338, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:06.991 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:06.991 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:06.992 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:06.992 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:06.992 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37337, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:06.992 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:06.992 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:06.993 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:06.995 [0x7f2cc35d4b38] DEBUG - [HttpClient/HCl#26] HTTP/2.0 (0.2s) 200 response from GET https://plex.tv/services/pubsub/servers (reused)
+Feb 20, 2023 19:23:07.009 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.009 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37338, flags=0x1002, change=0x41
+Feb 20, 2023 19:23:07.009 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.009 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.038 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.038 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.038 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37338, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:07.038 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.038 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.039 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.039 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:07.039 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37337, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:07.039 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.039 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37338, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:07.039 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.039 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.040 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.040 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:07.040 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37338, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:07.040 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:07.040 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37338, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:07.283 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.283 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37339, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:07.283 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.283 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.287 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.287 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.287 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37340, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:07.287 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.287 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.288 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.288 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.288 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37340, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:07.288 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.288 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.291 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.291 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.291 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37340, flags=0x1002, change=0x100
+Feb 20, 2023 19:23:07.291 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.291 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.292 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.292 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.292 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37340, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:07.292 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.292 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.293 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.293 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.293 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37339, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:07.293 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.293 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.294 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.294 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.294 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37340, flags=0x1043, change=0x1
+Feb 20, 2023 19:23:07.294 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.294 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.295 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.295 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.295 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37340, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:07.295 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.295 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.295 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.296 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.296 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37340, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:07.296 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.296 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.296 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.296 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.296 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37340, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:07.296 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.296 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.297 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.297 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.297 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37340, flags=0x1043, change=0x0
+Feb 20, 2023 19:23:07.297 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.297 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.298 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.557 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:07.557 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37339, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:07.586 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.586 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37340, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:07.586 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.586 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.588 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.588 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.588 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37340, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:07.588 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.588 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.590 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.789 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.789 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37341, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:07.789 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.789 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.791 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.791 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.791 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37342, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:07.791 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.791 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.791 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.791 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.791 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37342, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:07.791 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.791 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.793 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.793 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.793 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37342, flags=0x1002, change=0x100
+Feb 20, 2023 19:23:07.793 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.793 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.794 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.794 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.794 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37342, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:07.794 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.794 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.795 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.795 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.795 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37342, flags=0x1003, change=0x1
+Feb 20, 2023 19:23:07.795 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.795 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.795 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.795 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.795 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37342, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:07.795 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.795 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.796 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.796 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.796 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37341, flags=0x1002, change=0x0
+Feb 20, 2023 19:23:07.796 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.796 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.797 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.797 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.797 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37342, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:07.797 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.797 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.797 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:07.797 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:07.797 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37342, flags=0x1003, change=0x0
+Feb 20, 2023 19:23:07.797 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:07.797 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:07.798 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:08.001 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+Feb 20, 2023 19:23:08.001 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37341, flags=0x1002, change=0xffffffff
+Feb 20, 2023 19:23:08.025 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:08.025 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37342, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:08.025 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:08.025 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:08.028 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:08.028 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:08.028 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=37342, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:08.028 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:08.028 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:08.029 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:08.029 [0x7f2cc2142b38] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+Feb 20, 2023 19:23:08.029 [0x7f2cc2142b38] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=37342, flags=0x11043, change=0x0
+Feb 20, 2023 19:23:08.029 [0x7f2cc2142b38] DEBUG - Network change.
+Feb 20, 2023 19:23:08.029 [0x7f2cc2142b38] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Feb 20, 2023 19:23:08.030 [0x7f2cc2142b38] DEBUG - Network change notification but nothing changed.
+Feb 20, 2023 19:23:08.127 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process] Time to connect to 45.79.197.58 was 430 ms.
+Feb 20, 2023 19:23:08.127 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process] Time to connect to 45.79.197.109 was 443 ms.
+Feb 20, 2023 19:23:08.127 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process] Time to connect to 172.105.13.59 was 460 ms.
+Feb 20, 2023 19:23:08.127 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process] Time to connect to 72.14.179.64 was 510 ms.
+Feb 20, 2023 19:23:08.127 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process] Time to connect to 45.79.128.184 was 577 ms.
+Feb 20, 2023 19:23:08.127 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process] Time to connect to 176.58.127.172 was 615 ms.
+Feb 20, 2023 19:23:08.127 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process] Time to connect to 172.105.245.178 was 650 ms.
+Feb 20, 2023 19:23:08.127 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process] Time to connect to 184.105.148.116 was 660 ms.
+Feb 20, 2023 19:23:08.127 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process] Time to connect to 139.162.120.52 was 1131 ms.
+Feb 20, 2023 19:23:08.127 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process] Time to connect to 139.162.20.120 was 1131 ms.
+Feb 20, 2023 19:23:08.127 [0x7f2cc1902b38] DEBUG - [PubsubServerManager/process] Updating best ping time for 45.79.197.58 to 430 ms.

@@ -1,0 +1,4 @@
+Feb 20, 2023 19:23:01.923 [0x7f40647a6b38] INFO - Crash Uploader - Platform: Linux ServerUUID: b391ca0e8081a50d3fbb59444117012e548fa0fd UserId: thfnog@gmail.com Version: 1.30.2.6563-3d4dc0cce
+Feb 20, 2023 19:23:01.923 [0x7f40647a6b38] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.30.2.6563-3d4dc0cce
+Feb 20, 2023 19:23:01.923 [0x7f40647a6b38] INFO - Post-processed minidump directory: /tmp
+Feb 20, 2023 19:23:01.923 [0x7f406644b808] INFO - Crash Uploader - Processing Complete.

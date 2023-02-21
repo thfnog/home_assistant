@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "Home",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "person.thiago_nogueira"
+              ]
+            },
+            {
+              "type": "weather-forecast",
+              "entity": "weather.forecast_home",
+              "show_forecast": false
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "switch.luz_escritorio_socket_1",
+                  "name": "Socket 1"
+                }
+              ],
+              "title": "Luz Escritório "
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.luz_escritorio_current",
+                  "name": "Current"
+                },
+                {
+                  "entity": "sensor.luz_escritorio_power",
+                  "name": "Power"
+                },
+                {
+                  "entity": "sensor.luz_escritorio_voltage",
+                  "name": "Voltage"
+                }
+              ],
+              "title": "Luz Escritório "
+            },
+            {
+              "type": "statistics-graph",
+              "entities": [
+                "sensor.luz_escritorio_power"
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Grafana",
+          "path": "monitoring",
+          "type": "panel",
+          "subview": false,
+          "badges": [],
+          "cards": [
+            {
+              "type": "iframe",
+              "url": "http://localhost:3000/d/GGSGtJzgk/tuya-energy-monitoring?orgId=1&refresh=5s&kiosk=tv",
+              "aspect_ratio": "100%",
+              "title": "Luz Escritório"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

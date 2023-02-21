@@ -1,0 +1,554 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.thiago_nogueira",
+        "state": "home",
+        "attributes": {
+          "editable": true,
+          "id": "thiago_nogueira",
+          "latitude": -23.0811566,
+          "longitude": -47.2208101,
+          "gps_accuracy": 11,
+          "source": "device_tracker.thiago_s_smartphone",
+          "user_id": "e217a125a1fc408a8e038e84c058620b",
+          "friendly_name": "Thiago Nogueira"
+        },
+        "last_changed": "2023-02-20T20:04:48.137989+00:00",
+        "last_updated": "2023-02-21T11:52:58.847639+00:00",
+        "context": {
+          "id": "01GSSX3Q6ZKD27RQA0WDTD9R9A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.tuya",
+        "state": "0.00",
+        "attributes": {
+          "state_class": "total",
+          "source": "sensor.luz_escritorio_power",
+          "unit_of_measurement": "kWh",
+          "device_class": "energy",
+          "icon": "mdi:chart-histogram",
+          "friendly_name": "Tuya"
+        },
+        "last_changed": "2023-02-20T20:04:49.167357+00:00",
+        "last_updated": "2023-02-20T20:04:49.167357+00:00",
+        "context": {
+          "id": "01GSR6VJWF931FRVT1V998RGCW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.tag_teste_is_scanned",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2023-02-20T16:34:41.984556+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1676473659871",
+          "friendly_name": "Tag Teste is scanned"
+        },
+        "last_changed": "2023-02-20T20:04:49.406718+00:00",
+        "last_updated": "2023-02-20T20:04:49.406718+00:00",
+        "context": {
+          "id": "01GSR6VK3YAD3KVHXXCK2M74ZW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "script.1676414556245",
+        "state": "off",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "restart",
+          "current": 0,
+          "friendly_name": "Confirmable Notification"
+        },
+        "last_changed": "2023-02-20T20:04:49.483610+00:00",
+        "last_updated": "2023-02-20T20:04:49.483610+00:00",
+        "context": {
+          "id": "01GSR6VK6BNBF9KXWXQ6K0ZBEE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_battery_level",
+        "state": "49",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-40",
+          "friendly_name": "Thiago's Smartphone Battery Level"
+        },
+        "last_changed": "2023-02-21T11:52:00.681791+00:00",
+        "last_updated": "2023-02-21T11:52:00.681791+00:00",
+        "context": {
+          "id": "01GSSX1YD96Q76ZG7G6TZZE9CP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 49,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_battery_state",
+        "state": "discharging",
+        "attributes": {
+          "icon": "mdi:battery-minus",
+          "friendly_name": "Thiago's Smartphone Battery State"
+        },
+        "last_changed": "2023-02-21T07:22:14.827912+00:00",
+        "last_updated": "2023-02-21T07:22:14.827912+00:00",
+        "context": {
+          "id": "01GSSDKZXBEYSMWVYMJJ1K3SAN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "discharging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_charger_type",
+        "state": "none",
+        "attributes": {
+          "icon": "mdi:battery",
+          "friendly_name": "Thiago's Smartphone Charger Type"
+        },
+        "last_changed": "2023-02-21T07:22:14.828274+00:00",
+        "last_updated": "2023-02-21T07:22:14.828274+00:00",
+        "context": {
+          "id": "01GSSDKZXCJAB78A3ET6PXM24F",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "none",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_battery_health",
+        "state": "good",
+        "attributes": {
+          "icon": "mdi:battery-heart-variant",
+          "friendly_name": "Thiago's Smartphone Battery Health"
+        },
+        "last_changed": "2023-02-20T20:04:49.486311+00:00",
+        "last_updated": "2023-02-20T20:04:49.486311+00:00",
+        "context": {
+          "id": "01GSR6VK6EERM2EZ0J0HVCVZMK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "good",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_battery_temperature",
+        "state": "30.6",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "icon": "mdi:battery",
+          "friendly_name": "Thiago's Smartphone Battery Temperature"
+        },
+        "last_changed": "2023-02-21T12:01:23.257212+00:00",
+        "last_updated": "2023-02-21T12:01:23.257212+00:00",
+        "context": {
+          "id": "01GSSXK3SSK7P20G6VTKY0QTRD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 30.6,
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_battery_power",
+        "state": "0.0",
+        "attributes": {
+          "state_class": "measurement",
+          "current": -0.000541,
+          "voltage": 3.812,
+          "unit_of_measurement": "W",
+          "device_class": "power",
+          "icon": "mdi:battery-minus",
+          "friendly_name": "Thiago's Smartphone Battery Power"
+        },
+        "last_changed": "2023-02-21T11:14:28.439385+00:00",
+        "last_updated": "2023-02-21T12:03:23.694719+00:00",
+        "context": {
+          "id": "01GSSXPSDEMWF8WZK6TFZ8A77Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 0.0,
+        "native_unit_of_measurement": "W"
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_bluetooth_connection",
+        "state": "3",
+        "attributes": {
+          "state_class": "measurement",
+          "connected_not_paired_devices": [],
+          "connected_paired_devices": [
+            "90:F1:57:47:D8:70 (fenix 6X Pro)",
+            "A0:AC:69:3B:94:ED (Galaxy Buds Live (94ED))",
+            "44:68:0C:06:74:23 (SPEN NA)"
+          ],
+          "paired_devices": [
+            "90:F1:57:47:D8:70 (fenix 6X Pro)",
+            "F4:4E:FD:00:12:C5 (Tranya T40)",
+            "A0:AC:69:3B:94:ED (Galaxy Buds Live (94ED))",
+            "20:AD:56:63:B5:48 (Uconnect 98861112XLK293359)",
+            "28:0F:EB:75:D4:D4 (Display Link)",
+            "44:68:0C:06:74:23 (SPEN NA)"
+          ],
+          "unit_of_measurement": "connection(s)",
+          "icon": "mdi:bluetooth",
+          "friendly_name": "Thiago's Smartphone Bluetooth Connection"
+        },
+        "last_changed": "2023-02-21T10:56:33.985006+00:00",
+        "last_updated": "2023-02-21T10:56:33.985006+00:00",
+        "context": {
+          "id": "01GSSSWDP1HFRXNWN02R5BM2KE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 3,
+        "native_unit_of_measurement": "connection(s)"
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_ble_transmitter",
+        "state": "Transmitting",
+        "attributes": {
+          "Advertise mode": "lowPower",
+          "Measured power": -59,
+          "Supports transmitter": true,
+          "Transmitting power": "ultraLow",
+          "id": "b38b362f-7fe1-4f5f-b125-9e6088e5709d_100_1",
+          "icon": "mdi:bluetooth",
+          "friendly_name": "Thiago's Smartphone BLE Transmitter"
+        },
+        "last_changed": "2023-02-20T20:04:49.486478+00:00",
+        "last_updated": "2023-02-20T20:04:49.486478+00:00",
+        "context": {
+          "id": "01GSR6VK6EG9DYV1AEXGN6W5QW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Transmitting",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_geocoded_location",
+        "state": "R. Ângelo Petrilli, 217 - Colinas de Indaiatuba, Indaiatuba - SP, 13331-000, Brazil",
+        "attributes": {
+          "administrative_area": "São Paulo",
+          "country": "Brazil",
+          "iso_country_code": "BR",
+          "locality": "null",
+          "location": [
+            -23.0810392,
+            -47.2206859
+          ],
+          "name": "217",
+          "phone": "null",
+          "postal_code": "13331-000",
+          "premises": "null",
+          "sub_administrative_area": "Indaiatuba",
+          "sub_locality": "Colinas de Indaiatuba",
+          "sub_thoroughfare": "217",
+          "thoroughfare": "Rua Ângelo Petrilli",
+          "url": "null",
+          "icon": "mdi:map",
+          "friendly_name": "Thiago's Smartphone Geocoded Location"
+        },
+        "last_changed": "2023-02-21T11:29:55.693897+00:00",
+        "last_updated": "2023-02-21T11:29:55.693897+00:00",
+        "context": {
+          "id": "01GSSVSGFD9HSW4QCWRQCRJTF0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "R. Ângelo Petrilli, 217 - Colinas de Indaiatuba, Indaiatuba - SP, 13331-000, Brazil",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_wifi_connection",
+        "state": "Nogueira VIVO",
+        "attributes": {
+          "is_hidden": false,
+          "icon": "mdi:wifi",
+          "friendly_name": "Thiago's Smartphone WiFi Connection"
+        },
+        "last_changed": "2023-02-21T09:38:34.634239+00:00",
+        "last_updated": "2023-02-21T09:38:34.634239+00:00",
+        "context": {
+          "id": "01GSSNDM0AS983PQT9YT69RWH2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Nogueira VIVO",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_wifi_frequency",
+        "state": "5640",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "MHz",
+          "icon": "mdi:wifi",
+          "friendly_name": "Thiago's Smartphone WiFi Frequency"
+        },
+        "last_changed": "2023-02-21T11:14:25.766208+00:00",
+        "last_updated": "2023-02-21T11:14:25.766208+00:00",
+        "context": {
+          "id": "01GSSTX4B6V1WAN9Q58TTDP8ZN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 5640,
+        "native_unit_of_measurement": "MHz"
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_last_notification",
+        "state": "",
+        "attributes": {
+          "icon": "mdi:bell-ring",
+          "friendly_name": "Thiago's Smartphone Last Notification"
+        },
+        "last_changed": "2023-02-20T20:04:49.486635+00:00",
+        "last_updated": "2023-02-20T20:04:49.486635+00:00",
+        "context": {
+          "id": "01GSR6VK6ENM4J0KS6VHZGWTRB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.thiago_s_smartphone_proximity_sensor",
+        "state": "far",
+        "attributes": {
+          "icon": "mdi:leak",
+          "friendly_name": "Thiago's Smartphone Proximity Sensor"
+        },
+        "last_changed": "2023-02-20T20:04:49.486671+00:00",
+        "last_updated": "2023-02-20T20:04:49.486671+00:00",
+        "context": {
+          "id": "01GSR6VK6EVHKDVDHRTQ6VFXFQ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "far",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.thiago_s_smartphone_is_charging",
+        "state": "off",
+        "attributes": {
+          "device_class": "plug",
+          "icon": "mdi:power-plug-off",
+          "friendly_name": "Thiago's Smartphone Is Charging"
+        },
+        "last_changed": "2023-02-21T00:34:52.853915+00:00",
+        "last_updated": "2023-02-21T00:34:52.853915+00:00",
+        "context": {
+          "id": "01GSRPA2SNEC2CBBGRVMMKVGPZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.thiago_s_smartphone_device_locked",
+        "state": "on",
+        "attributes": {
+          "icon": "mdi:cellphone-lock",
+          "friendly_name": "Thiago's Smartphone Device Locked"
+        },
+        "last_changed": "2023-02-21T11:57:04.392810+00:00",
+        "last_updated": "2023-02-21T11:57:04.392810+00:00",
+        "context": {
+          "id": "01GSSXB708XDM9PZVR9GA4J6SB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.thiago_s_smartphone",
+        "state": "home",
+        "attributes": {
+          "source_type": "gps",
+          "latitude": -23.0811566,
+          "longitude": -47.2208101,
+          "gps_accuracy": 11,
+          "altitude": 622,
+          "course": 0,
+          "speed": 0,
+          "vertical_accuracy": 14,
+          "friendly_name": "Thiago's Smartphone"
+        },
+        "last_changed": "2023-02-21T11:52:58.847296+00:00",
+        "last_updated": "2023-02-21T11:52:58.847296+00:00",
+        "context": {
+          "id": "01GSSX3Q6ZJR0KYDQ80705ZW8V",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "media_player.lg_ap82a",
+        "state": "off",
+        "attributes": {
+          "source_list": [
+            "AV",
+            "Acessibilidade",
+            "Apple TV+",
+            "Buscar",
+            "Canais Globo",
+            "Clarovideo",
+            "Componente",
+            "Conector de Dispositivos",
+            "Disney+",
+            "Fotos & Vídeos",
+            "Gravações",
+            "Guia da TV",
+            "Guia do Usuário",
+            "HBO Max",
+            "HDMI1",
+            "HDMI2",
+            "HDMI3",
+            "HDMI4",
+            "Kanto",
+            "LG Content Store",
+            "Live TV",
+            "Música",
+            "Navegador Web",
+            "Netflix",
+            "Notificações",
+            "Prime Video",
+            "Programador",
+            "Screen Share",
+            "YouTube",
+            "globoplay"
+          ],
+          "assumed_state": true,
+          "device_class": "tv",
+          "friendly_name": "[LG] AP82A",
+          "supported_features": 24381
+        },
+        "last_changed": "2023-02-20T23:15:20.903569+00:00",
+        "last_updated": "2023-02-20T23:16:42.985487+00:00",
+        "context": {
+          "id": "01GSRHTYV95ZPKQPDA8ETKYX1T",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-02-21T12:05:04.294145+00:00"
+    }
+  ]
+}

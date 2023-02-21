@@ -1,0 +1,1 @@
+2023-02-20 17:04:49.146 ERROR (MainThread) [homeassistant.components.mqtt.client] Failed to connect to MQTT server due to exception: [Errno 111] Connection refused

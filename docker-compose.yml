@@ -1,0 +1,224 @@
+version: '3.5'
+
+# DOCKER COMPOSE COMMAND REFERENCE
+# --------------------------------------------------------------------------
+# Start    | docker-compose up -d
+# Stop     | docker-compose stop
+# Update   | docker-compose pull
+# Logs     | docker-compose logs --tail=25 -f
+# debug    : docker-compose exec inlfuxdb bash --> get into one of 
+
+volumes:
+  influxdb_data: {}
+  postgres_data: {}
+  grafana_data: {}
+
+networks:
+  influx:
+    name: influx-frontend
+  postgres:
+    external: false
+
+services:
+  portainer: # nogueira/32yc2$O4wWz&
+    image: portainer/portainer-ce:latest
+    ports:
+      - 9443:9443
+    volumes:
+      - ./cfg/portainer:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+  
+    # Visual Studio code
+  vscode:
+    container_name: vscode
+    image: codercom/code-server:4.9.1
+    volumes:
+      # Set <project dir> to the directory you want to open in VS Code.
+      - ./cfg/:/home/coder/project
+      # <vs code config> should point to a local dir where vs code stores its data.
+      - ./cfg/vscode:/home/coder/.local/share/code-server
+    ports:
+      - "8443:8443"
+    command: code-server --auth password --port 8443 --disable-telemetry /home/coder/project
+    user: "${UID}:${GID}"
+    environment:
+      PASSWORD: "${VSCODE_PASSWORD}"
+    restart: unless-stopped
+
+  influxdb:
+    container_name: dsig-influx
+    image: influxdb:${INFLUXDB_VERSION}
+    user: "${UID}:${GID}"
+    networks:
+      - influx
+    ports:
+      - 8086:8086
+    restart: always
+    environment:
+    - INFLUXDB_DB=${DOCKER_INFLUXDB_DB}
+    volumes:
+      - ./cfg/influxdb:/var/lib/influxdb2
+  
+  # telegraf:
+  #   container_name: dsig-telegraf
+  #   image: telegraf:${TELEGRAF_VERSION}
+  #   user: "${UID}:${GID}"
+  #   profiles: ["telegraf"]
+  #   networks:
+  #     - influx
+  #   ports:
+  #     - 8125:8125/udp
+  #   restart: always
+  #   depends_on:
+  #     - influxdb
+  #   environment:
+  #     - INFLUXDB_INIT_ORG=sequr
+  #     - INFLUXDB_INIT_BUCKET=homeassistant
+  #     - INFLUXDB_INIT_ADMIN_TOKEN=z7C0rQzenmxbS_Gg0j8lU-p-qAj7e7AmngVyZ7kF0nvf2ZXGMGNV_784qVHOQij1xobabvu2eJ6LiOL8nGohjg==
+  #     # - INFLUX_TOKEN=z7C0rQzenmxbS_Gg0j8lU-p-qAj7e7AmngVyZ7kF0nvf2ZXGMGNV_784qVHOQij1xobabvu2eJ6LiOL8nGohjg==
+  #   volumes:
+  #     - ./cfg/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+
+  postgres:
+    container_name: dsig-postgres
+    image: bitnami/postgresql:${POSTGRES_VERSION}
+    user: "${UID}:${GID}"
+    profiles: ["grafana"]
+    networks:
+      - postgres
+    restart: always
+    environment:
+      - POSTGRESQL_USERNAME=${POSTGRESQL_USERNAME}
+      - POSTGRESQL_PASSWORD=${POSTGRESQL_PASSWORD}
+      - POSTGRESQL_DATABASE=${POSTGRESQL_DATABASE}
+    volumes:
+      - ./cfg/postgres:/bitnami/postgresql
+
+  grafana:
+    container_name: dsig-grafana
+    image: grafana/grafana-enterprise:${GRAFANA_VERSION}
+    user: "${UID}:${GID}"
+    profiles: ["grafana"]
+    networks:
+      - postgres
+      - influx
+    ports:
+      - 3000:3000
+    restart: always
+    environment:
+      GF_SECURITY_ALLOW_EMBEDDING: "true"
+      GF_PATHS_PLUGINS: /var/lib/grafana/plugins
+      GF_PATHS_PROVISIONING: /var/lib/grafana/provisioning
+      GF_RENDERING_SERVER_URL: http://192.168.15.9:8081/render
+      GF_RENDERING_CALLBACK_URL: http://192.168.15.9:3000/
+      GF_LOG_FILTERS: rendering:debug
+    depends_on:
+      - postgres
+      - influxdb
+    volumes:
+      - ./cfg/grafana:/var/lib/grafana
+      - ./cfg/grafana/provisioning:/var/lib/grafana/provisioning
+      - ./cfg/grafana/plugins:/var/lib/grafana/plugins
+      - ./cfg/grafana/dashboards:/var/lib/grafana/dashboards
+
+  renderer:
+      image: grafana/grafana-image-renderer:3.5.0
+      ports:
+        - 8081:8081
+
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    volumes:
+      - ./cfg/homeassistant:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+    healthcheck:
+      test: 'curl -m 90 -sLf http://localhost:8123 || date >> /config/healthcheck' #| pkill -9 python3'
+      interval: 90s
+      timeout: 60s
+      retries: 2
+    environment:
+      TZ: America/Sao_Paulo
+    depends_on:
+      # - postgres
+      - influxdb
+
+  # https://www.homeautomationguy.io/docker-tips/configuring-the-mosquitto-mqtt-docker-container-for-use-with-home-assistant/
+  mosquitto: # hass/fn3188
+    container_name: mosquitto
+    image: eclipse-mosquitto:2.0.14
+    restart: unless-stopped
+    user: "${UID}:${GID}"
+    ports:
+      - 1883:1883
+      - 9001:9001
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./cfg/mosquitto/:/mosquitto
+      - ./cfg/mosquitto/config:/mosquitto/config
+      - ./cfg/mosquitto/config/certs:/mosquitto/config/certs
+      - ./cfg/mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf:rw
+      - ./cfg/mosquitto/data:/mosquitto/data
+      - ./cfg/mosquitto/log:/mosquitto/log
+    environment:
+      TZ: America/Sao_Paulo
+  
+  zigbee2mqtt:
+    container_name: zigbee2mqtt
+    image: koenkk/zigbee2mqtt
+    restart: unless-stopped
+    volumes:
+      - ./cfg/zigbee2mqtt:/app/data
+      - /run/udev:/run/udev:ro
+    ports:
+      # Frontend port
+      - 8080:8080
+    environment:
+      - TZ=America/Sao_Paulo
+    #devices:
+    #  - /dev/serial/ttyACM0:/dev/ttyACM0
+
+  # appdaemon:
+  #   container_name: appdaemon
+  #   #4.1.0
+  #   image: acockburn/appdaemon:3.0.5
+  #   #user: "${UID}:${GID}"
+  #   depends_on:
+  #     - homeassistant
+  #   volumes:
+  #     - /etc/localtime:/etc/localtime:ro
+  #     - ./cfg/appdaemon:/conf
+  #   restart: always
+  #   environment:
+  #     TZ: America/Sao_Paulo
+
+  # tasmotaadmin:
+  #   container_name: tasmotaadmin
+  #   image: raymondmm/tasmoadmin:v1.7.0
+  #   restart: unless-stopped
+  #   ports:
+  #     - 9000:80
+  #   volumes:
+  #     - ./cfg/tasmotaadmin:/data/tasmoadmin
+
+  # Node-RED
+  # nodered:
+  #   container_name: nodered
+  #   image: nodered/node-red
+  #   ports:
+  #     - "1880:1880"
+  #   volumes:
+  #     # Local path where all Node-RED config will be stored.
+  #     - ./cfg/nodered:/data
+  #   depends_on:
+  #     - homeassistant
+  #   environment:
+  #     TZ: "America/Sao_Paulo"
+  #   user: "${UID}:${GID}"
+  #   restart: unless-stopped
+
+    # TODO: Frigate: https://www.homeautomationguy.io/home-assistant-tips/tweaking-frigate-to-get-the-best-results/

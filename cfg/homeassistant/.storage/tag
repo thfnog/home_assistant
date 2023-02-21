@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "tag",
+  "data": {
+    "items": [
+      {
+        "tag_id": "9d2b8f4a-7b07-477e-966d-67fd9145daff",
+        "name": "Teste",
+        "id": "9d2b8f4a-7b07-477e-966d-67fd9145daff",
+        "last_scanned": "2023-02-20T16:34:41.982776+00:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+'1676414556245':
+  alias: Confirmable Notification
+  use_blueprint:
+    path: homeassistant/confirmable_notification.yaml
+    input:
+      notify_device: 0c5f2ac73a0021c3a39f7e96d58d09a5
+      message: Teste
+      title: Título teste
+      confirm_action:
+      - type: toggle
+        device_id: 1cec07ec94e8d91098ea816bac0af487
+        entity_id: switch.luz_escritorio_socket_1
+        domain: switch

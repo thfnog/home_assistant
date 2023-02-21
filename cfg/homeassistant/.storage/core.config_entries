@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "08d9c2cd53a700c2cea7b422f6c0ea25",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "afe9001fc8cdcfe9a31e7e9b9ad81ff7",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b9d2926da06b911e8df7f95175fe5fae",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a94bc19ad61cb12a991b550018f6aea2",
+        "version": 1,
+        "domain": "tuya",
+        "title": "thfnog@gmail.com",
+        "data": {
+          "endpoint": "https://openapi.tuyaus.com",
+          "auth_type": 0,
+          "access_id": "4cwu9qnjykx3t9fg788k",
+          "access_secret": "b98400f9f210425e95c916212518ff1d",
+          "username": "thfnog@gmail.com",
+          "password": "Fn310588",
+          "country_code": "55",
+          "tuya_app_type": "smartlife"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "dbafb18ca2fa3da262a68afc8bb69466",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Thiago's Smartphone",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2023.1.1-full (3124)",
+          "device_name": "Thiago's Smartphone",
+          "manufacturer": "samsung",
+          "model": "SM-N986B",
+          "os_name": "Android",
+          "os_version": "33",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "c-SOZaN8Qq2RFGP1kPsS_q:APA91bHIpsd9yscbhOcnzLJWQ3OR8vZl2o89FLZ9A47zw0SysaViFDzDuWH7xPsn_Q25Egz4X6pmFUk9-70trJRZqWEX4t5oaSzmc6OTv74MxqEX46tyQ5Ct02V2HRWgTddPG1TMjAfH"
+          },
+          "device_id": "4a2bd5c75be72749",
+          "webhook_id": "4cfb7c5ea87ad6d18ae94af8b591cb71bb7cd97695c2744f91b29697377a3c06",
+          "user_id": "e217a125a1fc408a8e038e84c058620b"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-4a2bd5c75be72749",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7ee4ce8440da1ef09f9ab365e8070614",
+        "version": 1,
+        "domain": "dlna_dms",
+        "title": "SURFACE-HOME: thfnog@gmail.com:",
+        "data": {
+          "url": "http://192.168.15.3:2869/upnphost/udhisapi.dll?content=uuid:71717b76-fbca-4c75-a7f5-245bd0097c4c",
+          "device_id": "uuid:71717b76-fbca-4c75-a7f5-245bd0097c4c::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "surface_home_thfnog_gmail_com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:71717b76-fbca-4c75-a7f5-245bd0097c4c::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b0c0c8f08724e1bd7591c16351e66e92",
+        "version": 1,
+        "domain": "webostv",
+        "title": "[LG] AP82A",
+        "data": {
+          "host": "192.168.15.5",
+          "client_secret": "62927dd95118ad546b2aa40a2de2f830"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "d89ee5e6-228b-e3c5-fa46-7e07f76fad32",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7d8e818a55937065d47f95944453d4db",
+        "version": 1,
+        "domain": "upnp",
+        "title": "ASP Router",
+        "data": {
+          "udn": "uuid:987eca55-7050-4150-8198-7eca55705000",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:987eca55-7050-4150-8198-7eca55705000",
+          "location": "http://192.168.15.1:53475/rootDesc.xml",
+          "mac_address": null,
+          "host": "192.168.15.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:987eca55-7050-4150-8198-7eca55705000::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f0bfc36b9d5f335f632e64d69b3debf1",
+        "version": 1,
+        "domain": "mqtt",
+        "title": "localhost",
+        "data": {
+          "broker": "localhost",
+          "port": 1883,
+          "username": "hass",
+          "password": "fn3188",
+          "discovery": true,
+          "discovery_prefix": "homeassistant"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "62ce9dcf41bc39755ea1c1d173ef5dd0",
+        "version": 1,
+        "domain": "integration",
+        "title": "Tuya",
+        "data": {},
+        "options": {
+          "name": "Tuya",
+          "source": "sensor.luz_escritorio_power",
+          "method": "left",
+          "round": 2.0,
+          "unit_prefix": "k",
+          "unit_time": "h"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      }
+    ]
+  }
+}

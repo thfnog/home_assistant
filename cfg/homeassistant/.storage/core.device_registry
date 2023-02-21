@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "afe9001fc8cdcfe9a31e7e9b9ad81ff7"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "99d0285ba59f5c10bdaefbc3462cdf6d",
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "office",
+        "config_entries": [
+          "a94bc19ad61cb12a991b550018f6aea2"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "1cec07ec94e8d91098ea816bac0af487",
+        "identifiers": [
+          [
+            "tuya",
+            "eb287b40eb6d3315c2saq3"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "Tomada Inteligente  TWBR (nlqc2zwgpjypop2p)",
+        "name_by_user": null,
+        "name": "Luz Escritório ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "dbafb18ca2fa3da262a68afc8bb69466"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "0c5f2ac73a0021c3a39f7e96d58d09a5",
+        "identifiers": [
+          [
+            "mobile_app",
+            "4a2bd5c75be72749"
+          ]
+        ],
+        "manufacturer": "samsung",
+        "model": "SM-N986B",
+        "name_by_user": null,
+        "name": "Thiago's Smartphone",
+        "sw_version": "33",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "b0c0c8f08724e1bd7591c16351e66e92"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a120d6f7162ae4c2edf4bc79d6d0e728",
+        "identifiers": [
+          [
+            "webostv",
+            "d89ee5e6-228b-e3c5-fa46-7e07f76fad32"
+          ]
+        ],
+        "manufacturer": "LG",
+        "model": "49UJ6565-SB",
+        "name_by_user": null,
+        "name": "[LG] AP82A",
+        "sw_version": "06.10.30",
+        "via_device_id": null
+      },
+      {
+        "area_id": "office",
+        "config_entries": [
+          "7d8e818a55937065d47f95944453d4db"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "upnp",
+            "uuid:987eca55-7050-4150-8198-7eca55705000"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "d7d06fe8695329a39d4a2837177bd69e",
+        "identifiers": [
+          [
+            "upnp_serial_number",
+            "00000000"
+          ],
+          [
+            "upnp_host",
+            "192.168.15.1"
+          ],
+          [
+            "upnp",
+            "uuid:987eca55-7050-4150-8198-7eca55705000::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ]
+        ],
+        "manufacturer": "Askey",
+        "model": "Ubuntu router",
+        "name_by_user": null,
+        "name": "ASP Router",
+        "sw_version": null,
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}

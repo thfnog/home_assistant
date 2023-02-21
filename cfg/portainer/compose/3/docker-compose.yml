@@ -1,0 +1,15 @@
+version: "3.5"
+services:
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex-server
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - VERSION=docker
+      - PLEX_CLAIM= #optional
+    volumes:
+      - /home/nogueira/workspace/home_assistant/cfg/config/plex_server:/config
+      - /home/nogueira/Videos:/movies
+    restart: unless-stopped
